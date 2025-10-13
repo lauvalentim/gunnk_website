@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./GUNK-_2_.ico">
+    <title>Sociograma Miles | Gunk</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- 🔹 Tela de Carregamento -->
+<div id="preloader">
+    <div class="loader"></div>
+    <p>Carregando: Sociograma Miles Davis</p>
+</div>
+
+    <!-- Botão de Voltar -->
+    <a href="https://gunnk.com/viz" class="back-button">⮌</a>
+
+    <!-- Botão de Informações -->
+    <div class="info-button" onclick="toggleInfo()">ℹ Menu</div>
+
+    <!-- Fundo escuro ao abrir a caixa -->
+    <div class="info-overlay" id="infoOverlay" onclick="toggleInfo()"></div>
+
+    <!-- Caixa de Informações -->
+    <div class="info-box" id="infoBox">
+        <button class="close-btn" onclick="toggleInfo()">✖</button>
+        <button class="back-menu" onclick="showMenu()">⮌</button>
+
+        <div id="menu">
+            <h3 class="info-title" onclick="showContent('contextualizacao')">Contextualização</h3><br>
+            <h3 class="info-title" onclick="showContent('sociograma')">Organização do Sociograma</h3><br>
+            <h3 class="info-title" onclick="showContent('estrutura')">Estrutura</h3>
+        </div>
+
+        <!-- Contextualização -->
+        <div id="contextualizacao" class="info-content">
+            <br><h2>Sociograma de Miles Davis e seus Colaboradores</h2>
+            <div class="scrollable-text">
+                <br><p>
+                    Este sociograma foi construído com base em três dos álbuns mais icônicos da carreira de <strong>Miles Davis</strong>: 
+                    <em>"Kind of Blue" (1959), "Bitches Brew" (1970) e "Birth of the Cool" (1957)</em>. Esses discos representam momentos 
+                    fundamentais da evolução do jazz, marcando desde a ascensão do <strong>cool jazz</strong>, passando pelo jazz modal, 
+                    até a fusão experimental com elementos do rock e da música eletrônica. O grafo visualiza as conexões entre Davis e os 
+                    músicos que colaboraram em cada um desses álbuns, evidenciando a riqueza e diversidade de talentos que moldaram o jazz 
+                    ao longo das décadas.
+                </p> <br>
+                <p>
+                    O sociograma está organizado em <strong>clusters</strong>, divididos por categoria de instrumento e função dentro das gravações. 
+                    <strong>Miles Davis ocupa o nó central</strong>, representando seu papel como catalisador dessas colaborações. Ao seu redor, os músicos 
+                    foram agrupados da seguinte maneira: <em>instrumentos de sopro (saxofones, clarinete e trompa), pianistas e tecladistas, contrabaixistas, 
+                    bateristas e percussionistas, guitarristas, produtores e arranjadores, além de vocalistas</em>. Cada conexão no grafo representa uma colaboração 
+                    em um dos três álbuns analisados, refletindo a complexidade e profundidade das interações musicais de Davis com seus colegas.
+                </p><br>
+                <p>
+                    Os dados foram coletados a partir do <strong>site oficial de Miles Davis</strong> 
+                    (<a href="https://www.milesdavis.com/" target="_blank">milesdavis.com</a>), garantindo a precisão das informações. O projeto utiliza a ferramenta 
+                    <strong>Flourish</strong> para a visualização interativa do grafo, permitindo explorar as conexões entre os músicos. Essa abordagem destaca 
+                    a influência de Miles Davis não apenas como instrumentista, mas como um inovador que redefiniu o jazz ao longo de sua carreira.
+                </p><br>
+            </div>
+        </div>
+        <div id="sociograma" class="info-content">
+            <br><h2>Sociograma de Miles Davis e seus Colaboradores</h2>
+            <div class="scrollable-text">
+
+                <br><p>
+                    Este sociograma foi construído com base em três álbuns icônicos da carreira de <strong>Miles Davis</strong>: 
+                    <em>"Kind of Blue" (1959), "Bitches Brew" (1970) e "Birth of the Cool" (1957)</em>. 
+                    Cada um desses álbuns representa um momento chave na evolução do jazz: enquanto 
+                    <em>"Birth of the Cool"</em> ajudou a definir o cool jazz com sua abordagem mais sofisticada e introspectiva, 
+                    <em>"Kind of Blue"</em> revolucionou o jazz modal, e <em>"Bitches Brew"</em> inovou ao introduzir elementos de fusão com rock e música experimental. 
+                </p>
+            
+               <br><p>
+                    No sociograma, <strong>Miles Davis ocupa o nó central</strong>, simbolizando sua importância como líder e ponto de convergência das colaborações musicais. 
+                    Ao redor dele, os músicos foram organizados em clusters numerados de acordo com seus instrumentos ou funções no processo de gravação:
+                </p>
+            
+                <br><ul class="styled-list">
+                    <li><span style="background-color:#FFD700;"></span> <strong>Cluster 0:</strong> Miles Davis (Trompete – nó central)</li>
+                    <li><span style="background-color:#F4D03F;"></span> <strong>Cluster 1:</strong> Instrumentos de sopro (saxofones, clarinete, trombone e trompa)</li>
+                    <li><span style="background-color:#CD6155;"></span> <strong>Cluster 2:</strong> Pianistas e tecladistas</li>
+                    <li><span style="background-color:#808000;"></span> <strong>Cluster 3:</strong> Contrabaixistas</li>
+                    <li><span style="background-color:#5DADE2;"></span> <strong>Cluster 4:</strong> Bateristas e percussionistas</li>
+                    <li><span style="background-color:#6C3483;"></span> <strong>Cluster 5:</strong> Guitarristas</li>
+                    <li><span style="background-color:#58D68D;"></span> <strong>Cluster 6:</strong> Produtores, arranjadores e engenheiros de som</li>
+                    <li><span style="background-color:#F39C12;"></span> <strong>Cluster 7:</strong> Vocalistas</li>
+                </ul>
+                
+            
+                <br><p>
+                    Cada músico no grafo está conectado a Miles Davis, indicando sua participação em pelo menos um dos três álbuns mencionados. 
+                    Os dados foram coletados exclusivamente do <a href="https://www.milesdavis.com/" target="_blank">site oficial de Miles Davis</a>, 
+                    garantindo a precisão das informações. 
+                </p>
+            
+                <br><p>
+                    O grafo foi criado com a ferramenta <strong>Flourish</strong>, proporcionando uma visualização interativa das colaborações musicais. 
+                    Essa abordagem não apenas ilustra a rede de conexões entre os músicos, mas também destaca a influência de Miles Davis como 
+                    um dos maiores inovadores da história do jazz.
+                </p>
+            </div>           
+        </div>
+
+        <div id="estrutura" class="info-content">
+            <h4>⚙️Ferramentas Utilizadas:</h4><p>Flourish, JavaScript, CSS.</p><br>
+            <h4>💾Última atualização:</h4><p>Janeiro de 2025.</p><br>
+        </div>
+    </div>    
+   
+    <!-- Gráfico Flourish -->
+    <div class="flourish-container">
+        <div class="flourish-embed flourish-network" data-src="visualisation/21661548">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript>
+                <img src="https://public.flourish.studio/visualisation/21661548/thumbnail" width="100%" alt="network visualization">
+            </noscript>
+        </div>
+     <!-- 🔹 Legenda Suspensa -->
+             <div class="legend-container closed" id="legend">
+                 <div class="legend-toggle" onclick="toggleLegend()">🟢 Legenda</div>
+                    <ul class="legend-list" id="legendList">
+                        <li><span style="background-color:#FFD700;"></span> <strong>Cluster 0:</strong> Miles Davis</li>
+                        <li><span style="background-color:#F4D03F;"></span> <strong>Cluster 1:</strong> Instrumentos de sopro</li>
+                        <li><span style="background-color:#CD6155;"></span> <strong>Cluster 2:</strong> Pianistas e tecladistas</li>
+                        <li><span style="background-color:#808000;"></span> <strong>Cluster 3:</strong> Contrabaixistas</li>
+                        <li><span style="background-color:#5DADE2;"></span> <strong>Cluster 4:</strong> Bateristas</li>
+                        <li><span style="background-color:#6C3483;"></span> <strong>Cluster 5:</strong> Guitarristas</li>
+                        <li><span style="background-color:#58D68D;"></span> <strong>Cluster 6:</strong> Produtores</li>
+                        <li><span style="background-color:#F39C12;"></span> <strong>Cluster 7:</strong> Vocalistas</li>
+                    </ul>
+                </div> 
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

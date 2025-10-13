@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+body, p, button {
+    font-family: 'Jost', sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+    display: flex;
+}
+
+.flourish-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.flourish-embed iframe {
+    width: 100vw !important;
+    height: 100vh !important;
+    border: none;
+}
+
+
+/* 🔹 Menu de Informações (Botão Flutuante) */
+.info-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background: rgba(0, 123, 255, 0.8);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+.info-menu:hover {
+    background: rgba(0, 123, 255, 0.8);
+}
+
+/* 🔹 Caixa de Informações */
+.info-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; 
+    max-width: 900px; 
+    height: auto; 
+    max-height: 80vh;     
+    padding: 50px; 
+    border-radius: 10px;
+    z-index: 1000;
+    text-align: justify;
+    overflow-y: auto; 
+    background: rgba(255, 255, 255, 0.573); /* Fundo translúcido */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    -webkit-backdrop-filter: blur(10px);
+    font-size: 13px;
+}
+
+.info-box p {
+    line-height: 1.6; 
+}
+
+.info-box::-webkit-scrollbar {
+    width: 6px;
+}
+
+.info-box::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.info-box::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.info-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 40px;
+    background: rgba(215, 215, 215, 0.997);
+    color: rgb(51, 51, 51);
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+
+.info-button:hover {
+    background: rgba(1, 89, 241, 0.614);
+    color: rgba(2, 26, 112, 0.614);
+}
+
+.info-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* 🔹 Botão de Fechar */
+.close-btn {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: background 0.3s;
+    cursor: pointer;
+
+}
+
+.close-btn:hover {
+    background: rgba(241, 1, 1, 0.614);
+    color: rgba(112, 2, 2, 0.614);
+}
+
+.info-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Fundo escuro translúcido */
+    z-index: 999;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column; /* Deixa os itens em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    text-align: center;
+    cursor: pointer;
+}
+
+.back-menu {
+    display: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+.back-menu:hover {
+    background: rgba(241, 1, 1, 0.614);
+    color: rgba(112, 2, 2, 0.614);
+}
+
+info-title {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+.info-title:hover {
+    color: #0056b3;
+}
+
+.info-content {
+    display: none;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background: rgba(220, 220, 220, 0.8);
+    color: rgb(45, 45, 45);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+    z-index: 1000;
+}
+
+.back-button:hover {
+    background: rgba(209, 81, 2, 0.896);
+    color: rgba(147, 70, 3, 0.614);
+}
+
+/* 🔹 Ajuste para a seção de contextualização */
+.scrollable-text {
+    max-height: 300px; 
+    overflow-y: auto; 
+    padding-right: 10px;
+    text-align: justify;
+}
+
+/* 🔹 Estiliza a barra de rolagem */
+.scrollable-text::-webkit-scrollbar {
+    width: 6px;
+}
+
+.scrollable-text::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.scrollable-text::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.3); /* Fundo translúcido */
+    color: white;
+    display: none; /* Se quiser remover completamente */
+}
+
+/*Destaque Lista c Clusters*/
+.styled-list {
+    list-style: none;
+    padding-left: 0;
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.styled-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.styled-list li:hover {
+    background: rgba(255, 255, 255, 0.2); 
+}
+
+.styled-list span {
+    display: inline-block;
+    width: 16px; 
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/*Legenda Suspensa*/
+.legend-container {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 200px;
+    background: rgba(255, 255, 255, 0.418);
+    border-radius: 10px;
+    padding: 3px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.legend-container.closed {
+    height: 35px;
+    width: 200px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.legend-toggle {
+    text-align: start;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(46, 46, 46);
+    background: none;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    transition: background 0.3s;
+}
+
+.legend-toggle:hover {
+    background: rgba(8, 209, 72, 0.614);
+    color: rgba(30, 95, 42, 0.859);
+}
+
+.legend-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.legend-list li {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    padding: 8px 10px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.legend-list li:hover {
+    background: rgba(255, 255, 255, 0.2); /* Fundo levemente iluminado */
+    transform: scale(1.02); /* Leve aumento para destacar */
+    cursor: pointer;
+}
+
+.legend-list li:hover strong {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); /* Brilho no texto */
+}
+
+.legend-list span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+/* (Preloader) */
+#preloader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #6b0d6a, #aa29bb); /* Gradiente escuro e sofisticado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.loader {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #d7dde4, #7b03a0);
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.6);
+    animation: pulse 1.5s infinite alternate ease-in-out;
+    margin-bottom: 15px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 15px rgba(255, 204, 0, 0.6);
+    }
+    100% {
+        transform: scale(1.3);
+        box-shadow: 0 0 25px rgba(255, 204, 0, 1);
+    }
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    pointer-events: none;
+}
+
+#loading-text {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 2s steps(15, end) forwards;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 150px; }
+}
+
+.hidden {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    pointer-events: none;
+}
