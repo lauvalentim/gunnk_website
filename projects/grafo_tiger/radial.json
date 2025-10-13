@@ -1,0 +1,780 @@
+{
+    "data": [
+        {
+            "name": "tree",
+            "values": [
+                {
+                    "id": "Narrativas",
+                    "parent": ""
+                },
+                {
+                    "id": "Esportes & Games",
+                    "parent": "Narrativas"
+                },
+                {
+                    "id": "apostas esportivas",
+                    "parent": "Esportes & Games"
+                },
+                {
+                    "id": "Stake Talk Show ⚽",
+                    "parent": "apostas esportivas"
+                },
+                {
+                    "id": "⚽️ PALPITES HOJE 26.10 - PREVISÃO EVERTON vs FULHAM | Apostas Online | Apostas Esportivas",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "✅ APOSTAS ESPORTIVAS HOJE: INGLATERRA vs GRÉCIA | Apostas | Aposta Esportiva",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "🔥 PALPITES FUTEBOL HOJE - APOSTAS ESPORTIVAS 02.11 | Palpites Hoje | Aposta Esportiva",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "Canal Mundo Bet",
+                    "parent": "apostas esportivas"
+                },
+                {
+                    "id": "PALPITES FUTEBOL DIA 24 10 2024 + BILHETE PRONTO (QUINTOU MUNDO BET)",
+                    "parent": "Canal Mundo Bet"
+                },
+                {
+                    "id": "PALPITES FUTEBOL DIA 22 10 2024 + BILHETE PRONTO (TERÇOU MUNDO BET)",
+                    "parent": "Canal Mundo Bet"
+                },
+                {
+                    "id": "PALPITES FUTEBOL DIA 23 10 2024 + BILHETE PRONTO (QUARTOU MUNDO BET)",
+                    "parent": "Canal Mundo Bet"
+                },
+                {
+                    "id": "PALPITES FUTEBOL DIA 29 10 2024 + BILHETE PRONTO (TERÇOU MUNDO BET)",
+                    "parent": "Canal Mundo Bet"
+                },
+                {
+                    "id": "PALPITES FUTEBOL DIA 02 10 2024 + BILHETE PRONTO (QUARTOU MUNDO BET)",
+                    "parent": "Canal Mundo Bet"
+                },
+                {
+                    "id": "Heisa Tips",
+                    "parent": "apostas esportivas"
+                },
+                {
+                    "id": "PALPITES APOSTAS FUTEBOL HOJE 29 10 2024 + BILHETE PRONTO (TERÇA-FEIRA)",
+                    "parent": "Heisa Tips"
+                },
+                {
+                    "id": "apostas esportivas hoje",
+                    "parent": "Esportes & Games"
+                },
+                {
+                    "id": "Stake Talk Show ⚽_1",
+                    "parent": "apostas esportivas hoje"
+                },
+                {
+                    "id": "⚽️ PALPITES HOJE 26.10 - PREVISÃO EVERTON vs FULHAM | Apostas Online | Apostas Esportivas_1",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "✅ APOSTAS ESPORTIVAS HOJE: INGLATERRA vs GRÉCIA | Apostas | Aposta Esportiva_1",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "apostas de futebol hoje",
+                    "parent": "Esportes & Games"
+                },
+                {
+                    "id": "Stake Talk Show ⚽_2",
+                    "parent": "apostas de futebol hoje"
+                },
+                {
+                    "id": "⚽️ PALPITES HOJE 26.10 - PREVISÃO EVERTON vs FULHAM | Apostas Online | Apostas Esportivas_2",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "palpites",
+                    "parent": "Esportes & Games"
+                },
+                {
+                    "id": "Stake Talk Show ⚽_3",
+                    "parent": "palpites"
+                },
+                {
+                    "id": "🔥 PALPITES FUTEBOL HOJE - APOSTAS ESPORTIVAS 22.10 | Palpites Hoje | Apostas Online",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "🥅 PALPITES FUTEBOL HOJE: Previsão Arsenal - Southampton | Aposta Esportiva | Palpites Hoje",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "Chris Bet - Investidor Esportivo",
+                    "parent": "palpites"
+                },
+                {
+                    "id": "SIMPLES X MÚLTIPLAS - QUAL MELHOR PRA LUCRAR APOSTAS",
+                    "parent": "Chris Bet - Investidor Esportivo"
+                },
+                {
+                    "id": "PALPITES FUTEBOL DIA 31 07 2024 + BILHETE PRONTO (QUARTOU MUNDO BET)",
+                    "parent": "Chris Bet - Investidor Esportivo"
+                },
+                {
+                    "id": "palpites de futebol",
+                    "parent": "Esportes & Games"
+                },
+                {
+                    "id": "Stake Talk Show ⚽_4",
+                    "parent": "palpites de futebol"
+                },
+                {
+                    "id": "🔥 PALPITES FUTEBOL HOJE - APOSTAS ESPORTIVAS 22.10 | Palpites Hoje | Apostas Online_1",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "⚽️ PALPITES FUTEBOL HOJE - Apostas Esportivas 26.10 | Bilhete Pronto | Aposta Esportiva",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "⚽️ PALPITES FUTEBOL AMANHÃ. APOSTAS ESPORTIVAS 19.10 | Aposta | Bundesliga Previsões",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "⚽️ PALPITES FUTEBOL HOJE. APOSTAS ESPORTIVAS 19.10 | Palpites Hora | Palpites Hoje",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "🥅 PALPITES FUTEBOL HOJE: Previsão Arsenal - Southampton | Aposta Esportiva | Palpites Hoje_1",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "BOLEIROS TIPS",
+                    "parent": "palpites de futebol"
+                },
+                {
+                    "id": "PALPITES FUTEBOL HOJE 29 10 2024 (TERÇA-FEIRA) + BILHETE PRONTO | Boleiros Tips",
+                    "parent": "BOLEIROS TIPS"
+                },
+                {
+                    "id": "PALPITES FUTEBOL HOJE 28 10 2024 (SEGUNDA-FEIRA) + BILHETE PRONTO | Boleiros Tips",
+                    "parent": "BOLEIROS TIPS"
+                },
+                {
+                    "id": "PALPITES FUTEBOL HOJE 27 10 2024 (DOMINGO) + BILHETE PRONTO | Boleiros Tips",
+                    "parent": "BOLEIROS TIPS"
+                },
+                {
+                    "id": "PALPITES FUTEBOL HOJE 24 10 2024 (QUINTA-FEIRA) + BILHETE PRONTO | Boleiros Tips",
+                    "parent": "BOLEIROS TIPS"
+                },
+                {
+                    "id": "PALPITES FUTEBOL HOJE 01 10 2024 (TERÇA-FEIRA) + BILHETE PRONTO | Boleiros Tips",
+                    "parent": "BOLEIROS TIPS"
+                },
+                {
+                    "id": "Educação & Tecnologia",
+                    "parent": "Narrativas"
+                },
+                {
+                    "id": "educação financeira",
+                    "parent": "Educação & Tecnologia"
+                },
+                {
+                    "id": "Bruno Perini - Você MAIS Rico",
+                    "parent": "educação financeira"
+                },
+                {
+                    "id": "APOSTAS (BETs) VÃO QUEBRAR BRASIL? risco apostas online economia brasileira",
+                    "parent": "Bruno Perini - Você MAIS Rico"
+                },
+                {
+                    "id": "finanças pessoais",
+                    "parent": "Educação & Tecnologia"
+                },
+                {
+                    "id": "Bruno Perini - Você MAIS Rico_1",
+                    "parent": "finanças pessoais"
+                },
+                {
+                    "id": "APOSTAS (BETs) VÃO QUEBRAR BRASIL? risco apostas online economia brasileira_1",
+                    "parent": "Bruno Perini - Você MAIS Rico"
+                },
+                {
+                    "id": "Dinheiro Com Você - Por William Ribeiro",
+                    "parent": "finanças pessoais"
+                },
+                {
+                    "id": "GOLPE DESMASCARADO - JOGO TIGRINHO Está ARRUINANDO Brasileiros",
+                    "parent": "Dinheiro Com Você - Por William Ribeiro"
+                },
+                {
+                    "id": "bruno perini",
+                    "parent": "Educação & Tecnologia"
+                },
+                {
+                    "id": "Bruno Perini - Você MAIS Rico_2",
+                    "parent": "bruno perini"
+                },
+                {
+                    "id": "APOSTAS (BETs) VÃO QUEBRAR BRASIL? risco apostas online economia brasileira_2",
+                    "parent": "Bruno Perini - Você MAIS Rico"
+                },
+                {
+                    "id": "tigre",
+                    "parent": "Educação & Tecnologia"
+                },
+                {
+                    "id": "Eslen Delanogare",
+                    "parent": "tigre"
+                },
+                {
+                    "id": "TIGRINHO APOSTAS: PESSOAS ESTÃO VICIADAS?",
+                    "parent": "Eslen Delanogare"
+                },
+                {
+                    "id": "TecMundo",
+                    "parent": "tigre"
+                },
+                {
+                    "id": "Jogo Tigrinho: funciona farsa jogos azar?",
+                    "parent": "TecMundo"
+                },
+                {
+                    "id": "Jogo Tigrinho: crimes quem divulga — Senado libera jogos azar, bicho BETs",
+                    "parent": "TecMundo"
+                },
+                {
+                    "id": "tigrinho",
+                    "parent": "Educação & Tecnologia"
+                },
+                {
+                    "id": "Eslen Delanogare_1",
+                    "parent": "tigrinho"
+                },
+                {
+                    "id": "TIGRINHO APOSTAS: PESSOAS ESTÃO VICIADAS?_1",
+                    "parent": "Eslen Delanogare"
+                },
+                {
+                    "id": "TecMundo_1",
+                    "parent": "tigrinho"
+                },
+                {
+                    "id": "Jogo Tigrinho: funciona farsa jogos azar?_1",
+                    "parent": "TecMundo"
+                },
+                {
+                    "id": "Outros",
+                    "parent": "Narrativas"
+                },
+                {
+                    "id": "Sem tag",
+                    "parent": "Outros"
+                },
+                {
+                    "id": "AVBETS ",
+                    "parent": "Sem tag"
+                },
+                {
+                    "id": "PALPITES APOSTAS FUTEBOL HOJE 29 10 2024 + BILHETE PRONTO (TERÇA-FEIRA)_1",
+                    "parent": "AVBETS "
+                },
+                {
+                    "id": "PALPITES APOSTAS FUTEBOL HOJE 28 10 2024 + BILHETE PRONTO (SEGUNDA-FEIRA)",
+                    "parent": "AVBETS "
+                },
+                {
+                    "id": "PALPITES APOSTAS FUTEBOL HOJE 25 10 2024 + BILHETE PRONTO (SEXTA-FEIRA)",
+                    "parent": "AVBETS "
+                },
+                {
+                    "id": "PALPITES APOSTAS FUTEBOL HOJE 23 10 2024 + BILHETE PRONTO (QUARTA-FEIRA)",
+                    "parent": "AVBETS "
+                },
+                {
+                    "id": "PALPITES APOSTAS FUTEBOL HOJE 24 10 2024 + BILHETE PRONTO (QUINTA-FEIRA)",
+                    "parent": "AVBETS "
+                },
+                {
+                    "id": "Rosendo1999",
+                    "parent": "Sem tag"
+                },
+                {
+                    "id": "Meu relato Apostas - PERDI TUDO TINHA TIVE VENDER MEU CARRO 😭",
+                    "parent": "Rosendo1999"
+                },
+                {
+                    "id": "Como eu Faço?!",
+                    "parent": "Sem tag"
+                },
+                {
+                    "id": "Jogo tigrinho: funciona esta farsa?",
+                    "parent": "Como eu Faço?!"
+                },
+                {
+                    "id": "apostas esportivas_1",
+                    "parent": "Outros"
+                },
+                {
+                    "id": "Stake Talk Show ⚽_5",
+                    "parent": "apostas esportivas"
+                },
+                {
+                    "id": "🔴 Palpites Futebol Hoje! Newcastle United vs Manchester City | Palpites Futebol | Apostas",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "Irmãos Dias Podcast",
+                    "parent": "apostas esportivas"
+                },
+                {
+                    "id": "APOSTAS ESPORTIVAS: POSSÍVEL GANHAR DINHEIRO? (GÊMEOS INVESTEM)",
+                    "parent": "Irmãos Dias Podcast"
+                },
+                {
+                    "id": "apostas esportivas brasil",
+                    "parent": "Outros"
+                },
+                {
+                    "id": "Stake Talk Show ⚽_6",
+                    "parent": "apostas esportivas brasil"
+                },
+                {
+                    "id": "🔴 Palpites Futebol Hoje! Newcastle United vs Manchester City | Palpites Futebol | Apostas_1",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "apostas esportivas palpites hoje",
+                    "parent": "Outros"
+                },
+                {
+                    "id": "Stake Talk Show ⚽_7",
+                    "parent": "apostas esportivas palpites hoje"
+                },
+                {
+                    "id": "🔴 Palpites Futebol Hoje! Newcastle United vs Manchester City | Palpites Futebol | Apostas_2",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "roma - atlético de bilbao",
+                    "parent": "Outros"
+                },
+                {
+                    "id": "Stake Talk Show ⚽_8",
+                    "parent": "roma - atlético de bilbao"
+                },
+                {
+                    "id": "💥 PALPITES ROMA VS ATHLETIC BILBAO | Apostas Desportivas Hoje | Expresso Hoje",
+                    "parent": "Stake Talk Show ⚽"
+                },
+                {
+                    "id": "Notícias & Sociedade",
+                    "parent": "Narrativas"
+                },
+                {
+                    "id": "Jornalismo",
+                    "parent": "Notícias & Sociedade"
+                },
+                {
+                    "id": "Fala Brasil",
+                    "parent": "Jornalismo"
+                },
+                {
+                    "id": "Mulher morre após perder controle apostas família fica dívida milionária",
+                    "parent": "Fala Brasil"
+                },
+                {
+                    "id": "Estadão",
+                    "parent": "Jornalismo"
+                },
+                {
+                    "id": "'BETS SÃO NOVO CRACK': Viciados apostas contam suas histórias",
+                    "parent": "Estadão"
+                },
+                {
+                    "id": "Record",
+                    "parent": "Notícias & Sociedade"
+                },
+                {
+                    "id": "Fala Brasil_1",
+                    "parent": "Record"
+                },
+                {
+                    "id": "Mulher morre após perder controle apostas família fica dívida milionária_1",
+                    "parent": "Fala Brasil"
+                },
+                {
+                    "id": "Balanço Geral",
+                    "parent": "Record"
+                },
+                {
+                    "id": "Cantor afunda dívidas agiotas após ficar viciado “jogo tigrinho”",
+                    "parent": "Balanço Geral"
+                },
+                {
+                    "id": "Reportagem Dia: Enfermeira viciada ‘jogo Tigrinho’ conversa Balanço Geral",
+                    "parent": "Balanço Geral"
+                },
+                {
+                    "id": "Comerciante fica viciada 'jogo tigrinho' perde R$ 160 mil",
+                    "parent": "Balanço Geral"
+                },
+                {
+                    "id": "Mecânico viciado jogo Tigrinho encontrado morto dentro carro",
+                    "parent": "Balanço Geral"
+                },
+                {
+                    "id": "Jovem perde todo salário mês ‘jogo tigrinho’ acusa influenciadora",
+                    "parent": "Balanço Geral"
+                },
+                {
+                    "id": "Fala Brasil_2",
+                    "parent": "Notícias & Sociedade"
+                },
+                {
+                    "id": "Fala Brasil_3",
+                    "parent": "Fala Brasil"
+                },
+                {
+                    "id": "Mulher morre após perder controle apostas família fica dívida milionária_2",
+                    "parent": "Fala Brasil"
+                },
+                {
+                    "id": "Eduardo Moreira",
+                    "parent": "Notícias & Sociedade"
+                },
+                {
+                    "id": "Eduardo Moreira_1",
+                    "parent": "Eduardo Moreira"
+                },
+                {
+                    "id": "bets mercado apostas estão gerando nosso país caos!",
+                    "parent": "Eduardo Moreira"
+                },
+                {
+                    "id": "Banca sempre ganha: Eduardo Moreira explica esquema bets critica atuação governo",
+                    "parent": "Eduardo Moreira"
+                },
+                {
+                    "id": "edu moreira",
+                    "parent": "Notícias & Sociedade"
+                },
+                {
+                    "id": "Eduardo Moreira_2",
+                    "parent": "edu moreira"
+                },
+                {
+                    "id": "bets mercado apostas estão gerando nosso país caos!_1",
+                    "parent": "Eduardo Moreira"
+                },
+                {
+                    "id": "Banca sempre ganha: Eduardo Moreira explica esquema bets critica atuação governo_1",
+                    "parent": "Eduardo Moreira"
+                },
+                {
+                    "id": "Música",
+                    "parent": "Narrativas"
+                },
+                {
+                    "id": "Mc",
+                    "parent": "Música"
+                },
+                {
+                    "id": "MC Kelvinho - Topic",
+                    "parent": "Mc"
+                },
+                {
+                    "id": "Aposta",
+                    "parent": "MC Kelvinho - Topic"
+                },
+                {
+                    "id": "Kelvinho",
+                    "parent": "Música"
+                },
+                {
+                    "id": "MC Kelvinho - Topic_1",
+                    "parent": "Kelvinho"
+                },
+                {
+                    "id": "Aposta_1",
+                    "parent": "MC Kelvinho - Topic"
+                },
+                {
+                    "id": "Aposta_2",
+                    "parent": "Música"
+                },
+                {
+                    "id": "MC Kelvinho - Topic_2",
+                    "parent": "Aposta"
+                },
+                {
+                    "id": "Aposta_3",
+                    "parent": "MC Kelvinho - Topic"
+                },
+                {
+                    "id": "detonautas 2023",
+                    "parent": "Música"
+                },
+                {
+                    "id": "detonautasVEVO",
+                    "parent": "detonautas 2023"
+                },
+                {
+                    "id": "Detonautas Roque Clube - Aposta (Ao Vivo)",
+                    "parent": "detonautasVEVO"
+                },
+                {
+                    "id": "detonautas 20 anos",
+                    "parent": "Música"
+                },
+                {
+                    "id": "detonautasVEVO_1",
+                    "parent": "detonautas 20 anos"
+                },
+                {
+                    "id": "Detonautas Roque Clube - Aposta (Ao Vivo)_1",
+                    "parent": "detonautasVEVO"
+                },
+                {
+                    "id": "Entretenimento",
+                    "parent": "Narrativas"
+                },
+                {
+                    "id": "elementar",
+                    "parent": "Entretenimento"
+                },
+                {
+                    "id": "Elementar",
+                    "parent": "elementar"
+                },
+                {
+                    "id": "Aposta Esportiva: Novo \"Esquema\" Governo?",
+                    "parent": "Elementar"
+                },
+                {
+                    "id": "canal elementar",
+                    "parent": "Entretenimento"
+                },
+                {
+                    "id": "Elementar_1",
+                    "parent": "canal elementar"
+                },
+                {
+                    "id": "Aposta Esportiva: Novo \"Esquema\" Governo?_1",
+                    "parent": "Elementar"
+                },
+                {
+                    "id": "elementar academy",
+                    "parent": "Entretenimento"
+                },
+                {
+                    "id": "Elementar_2",
+                    "parent": "elementar academy"
+                },
+                {
+                    "id": "Aposta Esportiva: Novo \"Esquema\" Governo?_2",
+                    "parent": "Elementar"
+                },
+                {
+                    "id": "Trader Esportivo",
+                    "parent": "Entretenimento"
+                },
+                {
+                    "id": "FULL TRADER",
+                    "parent": "Trader Esportivo"
+                },
+                {
+                    "id": "Esse SEGREDO GANHAR DINHEIRO Apostas Esportivas...",
+                    "parent": "FULL TRADER"
+                },
+                {
+                    "id": "Trading Esportivo",
+                    "parent": "Entretenimento"
+                },
+                {
+                    "id": "FULL TRADER_1",
+                    "parent": "Trading Esportivo"
+                },
+                {
+                    "id": "Esse SEGREDO GANHAR DINHEIRO Apostas Esportivas..._1",
+                    "parent": "FULL TRADER"
+                }
+            ],
+            "transform": [
+                {
+                    "type": "stratify",
+                    "key": "id",
+                    "parentKey": "parent"
+                },
+                {
+                    "type": "tree",
+                    "method": {
+                        "signal": "layout"
+                    },
+                    "size": [
+                        1,
+                        {
+                            "signal": "radius"
+                        }
+                    ],
+                    "as": [
+                        "alpha",
+                        "radius",
+                        "depth",
+                        "children"
+                    ]
+                },
+                {
+                    "type": "formula",
+                    "expr": "(rotate + extent * datum.alpha + 270) % 360",
+                    "as": "angle"
+                },
+                {
+                    "type": "formula",
+                    "expr": "PI * datum.angle / 180",
+                    "as": "radians"
+                },
+                {
+                    "type": "formula",
+                    "expr": "inrange(datum.angle, [90, 270])",
+                    "as": "leftside"
+                },
+                {
+                    "type": "formula",
+                    "expr": "originX + datum.radius * cos(datum.radians)",
+                    "as": "x"
+                },
+                {
+                    "type": "formula",
+                    "expr": "originY + datum.radius * sin(datum.radians)",
+                    "as": "y"
+                }
+            ]
+        },
+        {
+            "name": "links",
+            "source": "tree",
+            "transform": [
+                {
+                    "type": "treelinks"
+                },
+                {
+                    "type": "linkpath",
+                    "shape": {
+                        "signal": "links"
+                    },
+                    "orient": "radial",
+                    "sourceX": "source.radians",
+                    "sourceY": "source.radius",
+                    "targetX": "target.radians",
+                    "targetY": "target.radius"
+                }
+            ]
+        }
+    ],
+    "scales": [
+        {
+            "name": "color",
+            "type": "linear",
+            "range": {
+                "scheme": "magma"
+            },
+            "domain": {
+                "data": "tree",
+                "field": "depth"
+            },
+            "zero": true
+        }
+    ],
+    "marks": [
+        {
+            "type": "path",
+            "from": {
+                "data": "links"
+            },
+            "encode": {
+                "update": {
+                    "x": {
+                        "signal": "originX"
+                    },
+                    "y": {
+                        "signal": "originY"
+                    },
+                    "path": {
+                        "field": "path"
+                    },
+                    "stroke": {
+                        "value": "#ccc"
+                    }
+                }
+            }
+        },
+        {
+            "type": "symbol",
+            "from": {
+                "data": "tree"
+            },
+            "encode": {
+                "enter": {
+                    "size": {
+                        "value": 100
+                    },
+                    "stroke": {
+                        "value": "#fff"
+                    }
+                },
+                "update": {
+                    "x": {
+                        "field": "x"
+                    },
+                    "y": {
+                        "field": "y"
+                    },
+                    "fill": {
+                        "scale": "color",
+                        "field": "depth"
+                    }
+                }
+            }
+        },
+        {
+            "type": "text",
+            "from": {
+                "data": "tree"
+            },
+            "encode": {
+                "enter": {
+                    "text": {
+                        "field": "id"
+                    },
+                    "fontSize": {
+                        "value": 9
+                    },
+                    "baseline": {
+                        "value": "middle"
+                    }
+                },
+                "update": {
+                    "x": {
+                        "field": "x"
+                    },
+                    "y": {
+                        "field": "y"
+                    },
+                    "dx": {
+                        "signal": "(datum.leftside ? -1 : 1) * 6"
+                    },
+                    "angle": {
+                        "signal": "datum.leftside ? datum.angle - 180 : datum.angle"
+                    },
+                    "align": {
+                        "signal": "datum.leftside ? 'right' : 'left'"
+                    },
+                    "opacity": {
+                        "signal": "labels ? 1 : 0"
+                    }
+                }
+            }
+        }
+    ]
+}
