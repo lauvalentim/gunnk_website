@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre - Gunk</title>
+  <link rel="stylesheet" href="./css/sobre.css">
+  <script src="./js/sobre.js" defer></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/GUNK-_1_.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body class="text-white loaded">
+
+  <!-- HEADER -->
+  <header class="header-custom">
+    <a href="home" class="logo">GUNK</a>
+    <nav class="nav-custom">
+      <a href="home">HOME</a>
+      <a href="viz">VISUALIZAÇÕES</a>
+      <a href="artigos">ARTIGOS</a>
+      <a href="grafo">GRAFO?</a>
+      <a href="sobre">SOBRE</a>
+      <a href="contato">CONTATO</a>
+    </nav>
+    <div class="bore-toggle" id="glitch-toggle">
+      <span class="bore-label">CHECK<br>ME</span>
+      <div class="switch">
+        <span class="off">OUT</span>
+        <span class="on">🔴</span>
+      </div>
+    </div>
+  </header>
+
+<!-- SECTION 1 - SOBRE com SVG -->
+<section id="intro-sobre" class="h-screen w-full bg-gradient-to-br from-[#111] via-[#1a1a1a] to-[#2b2b2b] backdrop-blur-xl z-[10] overflow-hidden flex flex-col items-center justify-center">
+  
+  <!-- Conteúdo empilhado -->
+  <div class="intro-animado text-center max-w-4xl mx-auto">
+    
+    <!-- GIF -->
+    <div class="mb-6">
+      <img src="./assets/gif/sobre-bg.gif" alt="Gif animado" class="mx-auto w-40 h-40 object-contain" />
+    </div>
+    
+    <h1 class="bauhaus text-black text-4xl tracking-tight">Quem somos?</h1>
+    <p class="mt-2 text-black/50 text-base font-light leading-relaxed tracking-wide text-center max-w-2xl mx-auto">
+      Este projeto nasce de uma vontade: tornar dados mais compreensíveis, visuais mais significativos  
+      e relações mais visíveis. Aqui, você encontra um pouco do porquê fazemos o que fazemos e quem está por trás fazendo acontecer.
+    </p>
+
+    <div class="mt-6 flex justify-center">
+      <button onclick="document.getElementById('conteudo-sobre').scrollIntoView({ behavior: 'smooth' })"
+        class="animate-bounce text-black text-sm opacity-80 tracking-wider"
+        style="font-family: 'Bauhaus'; letter-spacing: 0.1em;">
+        click
+      </button>
+    </div>     
+  </div>
+</section>
+
+  
+<!-- SECTION 2 - Conteúdo com fundo escuro e centralizado -->
+<section id="conteudo-sobre" class="tab-section">
+  <!-- Seção de Botões -->
+  <div class="tab-buttons-centered">
+    <button onclick="showTab('project')" class="tab-btn tab-btn-project">O Projeto</button>
+    <button onclick="showTab('creator')" class="tab-btn tab-btn-creator">Por trás do Projeto</button>
+  </div>  
+
+  <!-- Conteúdo: Projeto -->
+  <div id="project" class="tab-content hidden">
+    <!-- Imagem -->
+    <div class="half img-bg left">
+      <img src="./assets/gif/bg-projeto.gif" alt="gif-projeto" />
+    </div>
+
+    <!-- Texto -->
+    <div class="half right">
+      <div class="text-container">
+        <h2>O Projeto</h2><br>
+          <p>Vivemos em um mundo onde a informação circula de forma instantânea — mas nem sempre de maneira clara. O que viraliza? Quem está por trás das narrativas que dominam nossas telas? E, principalmente: como podemos enxergar além do óbvio?</p><br>
+          <p> Este projeto nasce da vontade de visualizar e compreender como as redes moldam a nossa percepção da realidade. É também um exercício de escuta: o que os dados têm a nos dizer?</p><br>
+          <p>Utilizando dados e metodologias do Labic (Laboratório de Estudos sobre Imagem e Cibercultura — UFES), observamos como discursos circulam nas redes: quem se destaca, quem desaparece, e como certos temas ganham força ou se perdem no ruído.</p><br>
+          <p>Este site foi pensado para abrir caminho. Queremos que mais pessoas possam entender como a informação se organiza no ambiente digital — e, a partir disso, possam fazer perguntas, traçar caminhos e enxergar com mais clareza.</p><br>
+          <p class="mt-10 text-center">💻</p>
+        </div>        
+      </div>
+    </div>
+  </div>
+  
+  <!-- Conteúdo: Criador -->
+  <div id="creator" class="tab-content hidden">
+    <!-- Imagem -->
+    <div class="half left">
+      <img src="./assets/gif/bg-creator.gif" alt="gif-criadora" />
+    </div>
+  
+    <!-- Texto -->
+    <div class="half right">
+      <div class="text-container">
+        <h2>Por trás do Projeto</h2><br>
+        <p>Meu nome é Laura e sou pesquisadora na área de Ciências Sociais Aplicadas, com foco em análise de redes. Trabalho com dados, mas também com histórias, contextos e conexões.</p><br>
+        <p>Criei este espaço com um objetivo muito claro: descomplicar. Tornar mais acessível aquilo que muitas vezes parece distante — especialmente quando falamos de ciência, métodos e visualizações.</p><br>
+        <p>Acredito que analisar redes é também uma forma de compreender como o mundo funciona, como se organizam os discursos, os afetos, os poderes. E quero que mais pessoas possam acessar esse tipo de leitura.</p><br>
+        <p>Esta plataforma é também uma forma de valorizar o que é produzido dentro das universidades públicas, como o trabalho desenvolvido no LAbIC/UFES — onde a ciência se conecta com o cotidiano, com o social e com o digital.</p><br>
+        <p class="text-center mt-4">👩‍💻</p>
+      </div>
+    </div>
+  </div>
+
+</section>  
+
+  <!-- FOOTER -->
+  <footer class="footer-custom">
+    <div class="footer-left">
+      <span class="footer-logo">GUNK</span>
+      <p class="footer-tagline">Dados, redes, visualizações e nós.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/LauValentim" target="_blank">GitHub</a>
+      <a href="https://www.behance.net/valentim" target="_blank">Behance</a>
+      <a href="mailto:heygunnk@gmail.com?subject=Olá!&body=Escreva sua mensagem aqui">Email</a>
+    </div>
+  </footer>
+</body>
+</html>
