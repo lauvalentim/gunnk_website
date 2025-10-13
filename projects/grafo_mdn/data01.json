@@ -1,0 +1,5649 @@
+{
+    "nodes": [
+        {
+            "id": "viniceraa_",
+            "group": "Large",
+            "impact_score": 20140,
+            "size": 13,
+            "color": "#ad0b00",
+            "type": "user"
+        },
+        {
+            "id": "parcbrilhantes",
+            "group": "Large",
+            "impact_score": 9813,
+            "size": 13,
+            "color": "#ad0b00",
+            "type": "user"
+        },
+        {
+            "id": "marilins",
+            "group": "Large",
+            "impact_score": 5794,
+            "size": 13,
+            "color": "#ad0b00",
+            "type": "user"
+        },
+        {
+            "id": "SiteMadonnaBR",
+            "group": "Medium",
+            "impact_score": 1620,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "carlosalbanno",
+            "group": "Medium",
+            "impact_score": 109,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "choquei",
+            "group": "Large",
+            "impact_score": 1967,
+            "size": 13,
+            "color": "#ad0b00",
+            "type": "user"
+        },
+        {
+            "id": "sududoafael",
+            "group": "Large",
+            "impact_score": 3347,
+            "size": 13,
+            "color": "#ad0b00",
+            "type": "user"
+        },
+        {
+            "id": "bionico",
+            "group": "Large",
+            "impact_score": 2833,
+            "size": 13,
+            "color": "#ad0b00",
+            "type": "user"
+        },
+        {
+            "id": "tracklist",
+            "group": "Large",
+            "impact_score": 2914,
+            "size": 13,
+            "color": "#ad0b00",
+            "type": "user"
+        },
+        {
+            "id": "marcelaelaela",
+            "group": "Large",
+            "impact_score": 2395,
+            "size": 13,
+            "color": "#ad0b00",
+            "type": "user"
+        },
+        {
+            "id": "PabloJhuanBr7",
+            "group": "Large",
+            "impact_score": 2110,
+            "size": 13,
+            "color": "#ad0b00",
+            "type": "user"
+        },
+        {
+            "id": "paiva",
+            "group": "Medium",
+            "impact_score": 1811,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "anonsougon",
+            "group": "Medium",
+            "impact_score": 1536,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "raphaelbenaion",
+            "group": "Medium",
+            "impact_score": 120,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "qgdudabeat",
+            "group": "Medium",
+            "impact_score": 119,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "FinallyL0V3_",
+            "group": "Medium",
+            "impact_score": 117,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "_Flavia_Freire",
+            "group": "Medium",
+            "impact_score": 117,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "0geid_",
+            "group": "Medium",
+            "impact_score": 116,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "stuntedone",
+            "group": "Medium",
+            "impact_score": 116,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "tmdqa",
+            "group": "Medium",
+            "impact_score": 116,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "italolvj",
+            "group": "Medium",
+            "impact_score": 116,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "imiguelzz",
+            "group": "Medium",
+            "impact_score": 115,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "OriginalDollBR",
+            "group": "Medium",
+            "impact_score": 112,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "niconatv",
+            "group": "Medium",
+            "impact_score": 111,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "Elpichula02000",
+            "group": "Medium",
+            "impact_score": 109,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "imperioMadonna_",
+            "group": "Medium",
+            "impact_score": 107,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "fer__lond",
+            "group": "Medium",
+            "impact_score": 106,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "lucgaldino",
+            "group": "Medium",
+            "impact_score": 106,
+            "size": 13,
+            "color": "#bb3d0c",
+            "type": "user"
+        },
+        {
+            "id": "americanas",
+            "group": "Small",
+            "impact_score": 104,
+            "size": 13,
+            "color": "#ecde18",
+            "type": "user"
+        },
+        {
+            "id": "QueriaSerVJ",
+            "group": "Small",
+            "impact_score": 103,
+            "size": 13,
+            "color": "#ecde18",
+            "type": "user"
+        },
+        {
+            "id": "matheusviggo",
+            "group": "Small",
+            "impact_score": 102,
+            "size": 13,
+            "color": "#ecde18",
+            "type": "user"
+        },
+        {
+            "id": "iamjotab_",
+            "group": "Small",
+            "impact_score": 40,
+            "size": 13,
+            "color": "#ecde18",
+            "type": "user"
+        },
+        {
+            "id": "horadafofocatv",
+            "group": "Small",
+            "impact_score": 39,
+            "size": 13,
+            "color": "#ecde18",
+            "type": "user"
+        },
+        {
+            "id": "gustavojreige",
+            "group": "Small",
+            "impact_score": 40,
+            "size": 13,
+            "color": "#ecde18",
+            "type": "user"
+        },
+        {
+            "id": "BreakTudo",
+            "group": "Small",
+            "impact_score": 39,
+            "size": 13,
+            "color": "#ecde18",
+            "type": "user"
+        },
+        {
+            "id": "silasb1402",
+            "group": "Small",
+            "impact_score": 39,
+            "size": 13,
+            "color": "#ecde18",
+            "type": "user"
+        },
+        {
+            "id": "BrazilianMacca",
+            "group": "Small",
+            "impact_score": 39,
+            "size": 13,
+            "color": "#ecde18",
+            "type": "user"
+        },
+        {
+            "id": "Mariade66683620",
+            "group": "Small",
+            "impact_score": 39,
+            "size": 13,
+            "color": "#ecde18",
+            "type": "user"
+        },
+        {
+            "id": "SrCScarpa",
+            "group": "Small",
+            "impact_score": 39,
+            "size": 13,
+            "color": "#ecde18",
+            "type": "user"
+        },
+        {
+            "id": "oyurifernandes",
+            "group": "Small",
+            "impact_score": 39,
+            "size": 13,
+            "color": "#ecde18",
+            "type": "user"
+        },
+        {
+            "id": "madonna",
+            "group": "term_cluster_1",
+            "impact_score": 39.54445276782529,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "madonnainrio",
+            "group": "term_cluster_1",
+            "impact_score": 112.19373801107533,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "aconteça",
+            "group": "term_cluster_3",
+            "impact_score": 4425.703398621957,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "renato",
+            "group": "term_cluster_3",
+            "impact_score": 3483.5706361953507,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "2zez9mddd1",
+            "group": "term_cluster_3",
+            "impact_score": 3347.424064059981,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "anitta",
+            "group": "term_cluster_3",
+            "impact_score": 2914.999413987568,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "madonnacelebrationtourinrio",
+            "group": "term_cluster_3",
+            "impact_score": 2914.999413987568,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "https",
+            "group": "term_cluster_1",
+            "impact_score": 115.38935111121356,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "inspirada",
+            "group": "term_cluster_1",
+            "impact_score": 119.9574727109164,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "depois",
+            "group": "term_cluster_1",
+            "impact_score": 103.97880962543468,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "veiooooooo",
+            "group": "term_cluster_3",
+            "impact_score": 3347.424064059981,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "chegando",
+            "group": "term_cluster_1",
+            "impact_score": 39.77161558278394,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "muito",
+            "group": "term_cluster_3",
+            "impact_score": 2833.565915427481,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "nas",
+            "group": "term_cluster_2",
+            "impact_score": 20140.352603562267,
+            "size": 10,
+            "color": "#f34806",
+            "type": "term"
+        },
+        {
+            "id": "criticar",
+            "group": "term_cluster_1",
+            "impact_score": 39.54445276782529,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "rainha",
+            "group": "term_cluster_1",
+            "impact_score": 40.25149742100543,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "dia",
+            "group": "term_cluster_1",
+            "impact_score": 1650.8704184845792,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "telões",
+            "group": "term_cluster_3",
+            "impact_score": 3483.5706361953507,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "lindo",
+            "group": "term_cluster_3",
+            "impact_score": 3272.665915427481,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "beijar",
+            "group": "term_cluster_1",
+            "impact_score": 40.25149742100543,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "mundo",
+            "group": "term_cluster_1",
+            "impact_score": 120.10665495003197,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "vittar",
+            "group": "term_cluster_1",
+            "impact_score": 39.56321314969305,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "cabeça",
+            "group": "term_cluster_1",
+            "impact_score": 117.48295195873123,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "ensinando",
+            "group": "term_cluster_1",
+            "impact_score": 39.84390325381651,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "rio",
+            "group": "term_cluster_1",
+            "impact_score": 39.80306162494967,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "está",
+            "group": "term_cluster_1",
+            "impact_score": 1513.903398621957,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "hoje",
+            "group": "term_cluster_1",
+            "impact_score": 109.30339862195692,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "2frx1v9k7q",
+            "group": "term_cluster_1",
+            "impact_score": 39.80306162494967,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "show",
+            "group": "term_cluster_1",
+            "impact_score": 116.61991045131803,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "ensaio",
+            "group": "term_cluster_1",
+            "impact_score": 116.71806905777112,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "seus",
+            "group": "term_cluster_1",
+            "impact_score": 1967.35985442054,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "i0io0ytkgv",
+            "group": "term_cluster_1",
+            "impact_score": 104.84017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "za9ljff4re",
+            "group": "term_cluster_1",
+            "impact_score": 112.19373801107533,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "copacabana",
+            "group": "term_cluster_1",
+            "impact_score": 104.84017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "mar",
+            "group": "term_cluster_3",
+            "impact_score": 2833.565915427481,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "passoucestou",
+            "group": "term_cluster_1",
+            "impact_score": 104.64017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "melhooores",
+            "group": "term_cluster_1",
+            "impact_score": 104.64017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "aguardando",
+            "group": "term_cluster_3",
+            "impact_score": 3246.959853849049,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "isso",
+            "group": "term_cluster_1",
+            "impact_score": 2110.33487825833,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "cheio",
+            "group": "term_cluster_1",
+            "impact_score": 103.97880962543468,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "galera",
+            "group": "term_cluster_1",
+            "impact_score": 39.80306162494967,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "exibida",
+            "group": "term_cluster_3",
+            "impact_score": 5297.570636195351,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "beat",
+            "group": "term_cluster_1",
+            "impact_score": 119.9574727109164,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "issoooooo",
+            "group": "term_cluster_1",
+            "impact_score": 106.28172416677984,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "solange",
+            "group": "term_cluster_3",
+            "impact_score": 9813.176916736576,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "blogueirinhas",
+            "group": "term_cluster_1",
+            "impact_score": 103.97880962543468,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "for",
+            "group": "term_cluster_1",
+            "impact_score": 39.54445276782529,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "contagem",
+            "group": "term_cluster_1",
+            "impact_score": 107.31162660803857,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "preparado",
+            "group": "term_cluster_1",
+            "impact_score": 109.15714974462958,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "leques",
+            "group": "term_cluster_1",
+            "impact_score": 120.10665495003197,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "deixar",
+            "group": "term_cluster_1",
+            "impact_score": 39.56321314969305,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "areias",
+            "group": "term_cluster_1",
+            "impact_score": 1650.8704184845792,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "gente",
+            "group": "term_cluster_1",
+            "impact_score": 111.07609633383834,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "garantir",
+            "group": "term_cluster_1",
+            "impact_score": 104.64017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "udxmsw6pmq",
+            "group": "term_cluster_1",
+            "impact_score": 39.78227483328061,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "pochetes",
+            "group": "term_cluster_2",
+            "impact_score": 20140.352603562267,
+            "size": 10,
+            "color": "#f34806",
+            "type": "term"
+        },
+        {
+            "id": "mulher",
+            "group": "term_cluster_3",
+            "impact_score": 9813.176916736576,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "tempos",
+            "group": "term_cluster_1",
+            "impact_score": 1650.8704184845792,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "amanheci",
+            "group": "term_cluster_3",
+            "impact_score": 5794.309038944832,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "estava",
+            "group": "term_cluster_3",
+            "impact_score": 9813.176916736576,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "amenizar",
+            "group": "term_cluster_3",
+            "impact_score": 2395.886419046317,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "será",
+            "group": "term_cluster_1",
+            "impact_score": 117.6074479820878,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "ansiedade",
+            "group": "term_cluster_1",
+            "impact_score": 109.15714974462958,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "xfdmliwdgv",
+            "group": "term_cluster_3",
+            "impact_score": 3246.959853849049,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "tjkpfit6jn",
+            "group": "term_cluster_1",
+            "impact_score": 103.97880962543468,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "quantidade",
+            "group": "term_cluster_1",
+            "impact_score": 39.78227483328061,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "você",
+            "group": "term_cluster_1",
+            "impact_score": 117.6074479820878,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "queen",
+            "group": "term_cluster_1",
+            "impact_score": 40.34104054290859,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "quem",
+            "group": "term_cluster_3",
+            "impact_score": 4425.703398621957,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "entra",
+            "group": "term_cluster_3",
+            "impact_score": 3721.959851563088,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "aguilera",
+            "group": "term_cluster_1",
+            "impact_score": 103.97880962543468,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "alluwfhogv",
+            "group": "term_cluster_3",
+            "impact_score": 5297.570636195351,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "yy13k4wlp0",
+            "group": "term_cluster_1",
+            "impact_score": 116.94420292274326,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "teste",
+            "group": "term_cluster_1",
+            "impact_score": 1513.903398621957,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "maior",
+            "group": "term_cluster_1",
+            "impact_score": 120.10665495003197,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "imagens",
+            "group": "term_cluster_1",
+            "impact_score": 111.07609633383834,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "histórico",
+            "group": "term_cluster_1",
+            "impact_score": 2110.33487825833,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "tati",
+            "group": "term_cluster_1",
+            "impact_score": 103.97880962543468,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "estaria",
+            "group": "term_cluster_3",
+            "impact_score": 9813.176916736576,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "aéreas",
+            "group": "term_cluster_1",
+            "impact_score": 111.07609633383834,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "compartilha",
+            "group": "term_cluster_1",
+            "impact_score": 1620.97074504185,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "protetor",
+            "group": "term_cluster_1",
+            "impact_score": 104.64017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "sempre",
+            "group": "term_cluster_1",
+            "impact_score": 117.6074479820878,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "dos",
+            "group": "term_cluster_3",
+            "impact_score": 3483.5706361953507,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "madonnacelebrationtour",
+            "group": "term_cluster_1",
+            "impact_score": 40.34104054290859,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "quer",
+            "group": "term_cluster_1",
+            "impact_score": 109.30339862195692,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "pessoa",
+            "group": "term_cluster_1",
+            "impact_score": 117.48295195873123,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "ve62qfufwk",
+            "group": "term_cluster_1",
+            "impact_score": 106.12674575886469,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "cena",
+            "group": "term_cluster_1",
+            "impact_score": 119.9574727109164,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "banca",
+            "group": "term_cluster_3",
+            "impact_score": 5794.309038944832,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "não",
+            "group": "term_cluster_1",
+            "impact_score": 1536.87143312931,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "pra",
+            "group": "term_cluster_1",
+            "impact_score": 1620.97074504185,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "pix9wva3re",
+            "group": "term_cluster_1",
+            "impact_score": 117.6074479820878,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "palco",
+            "group": "term_cluster_1",
+            "impact_score": 1513.903398621957,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "ver",
+            "group": "term_cluster_1",
+            "impact_score": 39.59707929050744,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "pode",
+            "group": "term_cluster_1",
+            "impact_score": 104.64017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "madonnanaglô",
+            "group": "term_cluster_1",
+            "impact_score": 39.59707929050744,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "demais",
+            "group": "term_cluster_3",
+            "impact_score": 3272.665915427481,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "cheguei",
+            "group": "term_cluster_1",
+            "impact_score": 102.31187155163752,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "bob",
+            "group": "term_cluster_1",
+            "impact_score": 40.34104054290859,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "tal",
+            "group": "term_cluster_3",
+            "impact_score": 5794.309038944832,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "pabllo",
+            "group": "term_cluster_1",
+            "impact_score": 40.34104054290859,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "guys",
+            "group": "term_cluster_3",
+            "impact_score": 2395.886419046317,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "vivo",
+            "group": "term_cluster_3",
+            "impact_score": 3721.959851563088,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "t5cxsvtypm",
+            "group": "term_cluster_1",
+            "impact_score": 39.56321314969305,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "final",
+            "group": "term_cluster_1",
+            "impact_score": 119.9574727109164,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "praia",
+            "group": "term_cluster_1",
+            "impact_score": 116.61991045131803,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "russo",
+            "group": "term_cluster_3",
+            "impact_score": 3483.5706361953507,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "fãs",
+            "group": "term_cluster_1",
+            "impact_score": 1620.97074504185,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "chorar",
+            "group": "term_cluster_1",
+            "impact_score": 112.19373801107533,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "xbhdy6jidn",
+            "group": "term_cluster_1",
+            "impact_score": 1513.903398621957,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "numa",
+            "group": "term_cluster_3",
+            "impact_score": 5794.309038944832,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "ela",
+            "group": "term_cluster_1",
+            "impact_score": 116.26506454915724,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "marinalimax",
+            "group": "term_cluster_1",
+            "impact_score": 116.71806905777112,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "história",
+            "group": "term_cluster_1",
+            "impact_score": 39.56321314969305,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "4zrpdibdqy",
+            "group": "term_cluster_1",
+            "impact_score": 104.84017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "admira",
+            "group": "term_cluster_3",
+            "impact_score": 9813.176916736576,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "pelos",
+            "group": "term_cluster_1",
+            "impact_score": 1620.97074504185,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "publicações",
+            "group": "term_cluster_1",
+            "impact_score": 39.84390325381651,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "rollingstone",
+            "group": "term_cluster_1",
+            "impact_score": 39.84390325381651,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "vão",
+            "group": "term_cluster_1",
+            "impact_score": 116.71806905777112,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "nestlé",
+            "group": "term_cluster_1",
+            "impact_score": 104.64017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "olho",
+            "group": "term_cluster_1",
+            "impact_score": 39.77161558278394,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "70rw59bq8c",
+            "group": "term_cluster_2",
+            "impact_score": 20140.352603562267,
+            "size": 10,
+            "color": "#f34806",
+            "type": "term"
+        },
+        {
+            "id": "acompanhar",
+            "group": "term_cluster_3",
+            "impact_score": 4425.703398621957,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "ladxpwhqce",
+            "group": "term_cluster_1",
+            "impact_score": 120.10665495003197,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "rolar",
+            "group": "term_cluster_3",
+            "impact_score": 4425.703398621957,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "evento",
+            "group": "term_cluster_1",
+            "impact_score": 115.38935111121356,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "torcer",
+            "group": "term_cluster_1",
+            "impact_score": 112.19373801107533,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "3hfawuuug5",
+            "group": "term_cluster_3",
+            "impact_score": 5794.309038944832,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "kjgoehgsmu",
+            "group": "term_cluster_1",
+            "impact_score": 1536.87143312931,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "vai",
+            "group": "term_cluster_1",
+            "impact_score": 1650.8704184845792,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "muda",
+            "group": "term_cluster_3",
+            "impact_score": 9813.176916736576,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "foto",
+            "group": "term_cluster_3",
+            "impact_score": 5297.570636195351,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "novidades",
+            "group": "term_cluster_1",
+            "impact_score": 39.77161558278394,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "pessoalmente",
+            "group": "term_cluster_1",
+            "impact_score": 39.59707929050744,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "ser",
+            "group": "term_cluster_1",
+            "impact_score": 1536.87143312931,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "cadafini",
+            "group": "term_cluster_1",
+            "impact_score": 104.64017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "vip",
+            "group": "term_cluster_1",
+            "impact_score": 39.77161558278394,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "ainda",
+            "group": "term_cluster_3",
+            "impact_score": 3483.5706361953507,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "das",
+            "group": "term_cluster_1",
+            "impact_score": 104.84017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "noite",
+            "group": "term_cluster_1",
+            "impact_score": 39.56321314969305,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "odh01q0qec",
+            "group": "term_cluster_3",
+            "impact_score": 2914.999413987568,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "melhor",
+            "group": "term_cluster_1",
+            "impact_score": 109.15714974462958,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "completamente",
+            "group": "term_cluster_1",
+            "impact_score": 1620.97074504185,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "bang",
+            "group": "term_cluster_1",
+            "impact_score": 39.54445276782529,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "deve",
+            "group": "term_cluster_1",
+            "impact_score": 40.28227483328061,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "apareceu",
+            "group": "term_cluster_3",
+            "impact_score": 3483.5706361953507,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "vyprrshqpn",
+            "group": "term_cluster_1",
+            "impact_score": 116.26506454915724,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "iconico",
+            "group": "term_cluster_1",
+            "impact_score": 1536.87143312931,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "xoxota",
+            "group": "term_cluster_3",
+            "impact_score": 3721.959851563088,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "funcionamento",
+            "group": "term_cluster_1",
+            "impact_score": 104.84017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "casa",
+            "group": "term_cluster_2",
+            "impact_score": 20140.352603562267,
+            "size": 10,
+            "color": "#f34806",
+            "type": "term"
+        },
+        {
+            "id": "avchm3wbsc",
+            "group": "term_cluster_1",
+            "impact_score": 2110.33487825833,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "fazer",
+            "group": "term_cluster_1",
+            "impact_score": 40.28227483328061,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "madonnacelebrationtourinriohttps",
+            "group": "term_cluster_1",
+            "impact_score": 117.6074479820878,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "antes",
+            "group": "term_cluster_1",
+            "impact_score": 1967.35985442054,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "entupida",
+            "group": "term_cluster_1",
+            "impact_score": 111.07609633383834,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "isla",
+            "group": "term_cluster_1",
+            "impact_score": 117.6074479820878,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "desobedecer",
+            "group": "term_cluster_1",
+            "impact_score": 116.71806905777112,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "dimensão",
+            "group": "term_cluster_1",
+            "impact_score": 1811.6989357161328,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "girl",
+            "group": "term_cluster_1",
+            "impact_score": 1536.87143312931,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "gratuitamente",
+            "group": "term_cluster_1",
+            "impact_score": 39.84390325381651,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "christina",
+            "group": "term_cluster_1",
+            "impact_score": 103.97880962543468,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "prontos",
+            "group": "term_cluster_1",
+            "impact_score": 40.25149742100543,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "olhou",
+            "group": "term_cluster_1",
+            "impact_score": 117.48295195873123,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "esse",
+            "group": "term_cluster_1",
+            "impact_score": 109.15714974462958,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "milnh6bfw6",
+            "group": "term_cluster_1",
+            "impact_score": 1811.6989357161328,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "thecelebrationtourinrio",
+            "group": "term_cluster_1",
+            "impact_score": 106.12674575886469,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "aqui",
+            "group": "term_cluster_3",
+            "impact_score": 2833.565915427481,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "b4pdfqywre",
+            "group": "term_cluster_1",
+            "impact_score": 1967.35985442054,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "atenção",
+            "group": "term_cluster_1",
+            "impact_score": 40.28227483328061,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "pro",
+            "group": "term_cluster_1",
+            "impact_score": 115.38935111121356,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "dfnuqgdghmbiscoito",
+            "group": "term_cluster_1",
+            "impact_score": 104.64017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "tour",
+            "group": "term_cluster_1",
+            "impact_score": 107.31162660803857,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "sim",
+            "group": "term_cluster_3",
+            "impact_score": 4425.703398621957,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "curtir",
+            "group": "term_cluster_1",
+            "impact_score": 104.84017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "convenção",
+            "group": "term_cluster_1",
+            "impact_score": 120.10665495003197,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "especial",
+            "group": "term_cluster_1",
+            "impact_score": 104.84017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "emociona",
+            "group": "term_cluster_1",
+            "impact_score": 39.59707929050744,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "ifwtoweqhk",
+            "group": "term_cluster_1",
+            "impact_score": 116.61991045131803,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "material",
+            "group": "term_cluster_1",
+            "impact_score": 1536.87143312931,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "incrível",
+            "group": "term_cluster_3",
+            "impact_score": 2833.565915427481,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "prep",
+            "group": "term_cluster_2",
+            "impact_score": 20140.352603562267,
+            "size": 10,
+            "color": "#f34806",
+            "type": "term"
+        },
+        {
+            "id": "turnê",
+            "group": "term_cluster_1",
+            "impact_score": 107.31162660803857,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "estamos",
+            "group": "term_cluster_1",
+            "impact_score": 39.77161558278394,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "maria",
+            "group": "term_cluster_3",
+            "impact_score": 9813.176916736576,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "todashttps",
+            "group": "term_cluster_1",
+            "impact_score": 1536.87143312931,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "instantes",
+            "group": "term_cluster_1",
+            "impact_score": 40.28227483328061,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "rj2",
+            "group": "term_cluster_1",
+            "impact_score": 111.07609633383834,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "proporcionar",
+            "group": "term_cluster_1",
+            "impact_score": 109.15714974462958,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "astecas",
+            "group": "term_cluster_3",
+            "impact_score": 5794.309038944832,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "britney",
+            "group": "term_cluster_1",
+            "impact_score": 103.97880962543468,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "lotada",
+            "group": "term_cluster_3",
+            "impact_score": 3246.959853849049,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "público",
+            "group": "term_cluster_1",
+            "impact_score": 1967.35985442054,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "billboard",
+            "group": "term_cluster_1",
+            "impact_score": 39.84390325381651,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "calor",
+            "group": "term_cluster_3",
+            "impact_score": 2395.886419046317,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "c3x6opzswy",
+            "group": "term_cluster_1",
+            "impact_score": 106.28172416677984,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "cobertura",
+            "group": "term_cluster_1",
+            "impact_score": 109.30339862195692,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "globo",
+            "group": "term_cluster_1",
+            "impact_score": 39.84390325381651,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "ano",
+            "group": "term_cluster_1",
+            "impact_score": 40.34104054290859,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "37vc3e0cah",
+            "group": "term_cluster_1",
+            "impact_score": 104.64017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "simplesmente",
+            "group": "term_cluster_3",
+            "impact_score": 3246.959853849049,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "saudade",
+            "group": "term_cluster_1",
+            "impact_score": 119.9574727109164,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "d8r3tp4azw",
+            "group": "term_cluster_1",
+            "impact_score": 39.77161558278394,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "dela",
+            "group": "term_cluster_1",
+            "impact_score": 117.48295195873123,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "pronto",
+            "group": "term_cluster_1",
+            "impact_score": 115.38935111121356,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "twist",
+            "group": "term_cluster_3",
+            "impact_score": 9813.176916736576,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "mais",
+            "group": "term_cluster_1",
+            "impact_score": 109.30339862195692,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "the",
+            "group": "term_cluster_1",
+            "impact_score": 107.31162660803857,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "1s84j40ffu",
+            "group": "term_cluster_3",
+            "impact_score": 3272.665915427481,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "dias",
+            "group": "term_cluster_1",
+            "impact_score": 107.31162660803857,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "thecelebrationtour",
+            "group": "term_cluster_1",
+            "impact_score": 120.10665495003197,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "bie4rcltvf",
+            "group": "term_cluster_1",
+            "impact_score": 115.38935111121356,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "passa",
+            "group": "term_cluster_1",
+            "impact_score": 117.48295195873123,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "vou",
+            "group": "term_cluster_3",
+            "impact_score": 4425.703398621957,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "sala",
+            "group": "term_cluster_1",
+            "impact_score": 115.38935111121356,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "i2hhtdwtaa",
+            "group": "term_cluster_3",
+            "impact_score": 3721.959851563088,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "perguntou",
+            "group": "term_cluster_1",
+            "impact_score": 117.48295195873123,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "criminalidade",
+            "group": "term_cluster_1",
+            "impact_score": 39.54445276782529,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "j8whuljqga",
+            "group": "term_cluster_1",
+            "impact_score": 1620.97074504185,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "todos",
+            "group": "term_cluster_1",
+            "impact_score": 1650.8704184845792,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "comemorar",
+            "group": "term_cluster_1",
+            "impact_score": 1620.97074504185,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "cazuza",
+            "group": "term_cluster_3",
+            "impact_score": 5297.570636195351,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "qprpxtitpm",
+            "group": "term_cluster_1",
+            "impact_score": 40.25149742100543,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "pessoas",
+            "group": "term_cluster_3",
+            "impact_score": 2833.565915427481,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "disso",
+            "group": "term_cluster_1",
+            "impact_score": 1811.6989357161328,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "ecta5emn8v",
+            "group": "term_cluster_1",
+            "impact_score": 102.31187155163752,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "texto",
+            "group": "term_cluster_1",
+            "impact_score": 112.19373801107533,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "ksvpmuqcio",
+            "group": "term_cluster_1",
+            "impact_score": 109.30339862195692,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "musica",
+            "group": "term_cluster_1",
+            "impact_score": 39.54445276782529,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "vem",
+            "group": "term_cluster_1",
+            "impact_score": 104.84017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "emocionou",
+            "group": "term_cluster_3",
+            "impact_score": 5297.570636195351,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "cantar",
+            "group": "term_cluster_1",
+            "impact_score": 39.54445276782529,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "e9wygv4vej",
+            "group": "term_cluster_1",
+            "impact_score": 40.28227483328061,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "durante",
+            "group": "term_cluster_3",
+            "impact_score": 3721.959851563088,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "conferir",
+            "group": "term_cluster_1",
+            "impact_score": 104.84017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "conseguirem",
+            "group": "term_cluster_1",
+            "impact_score": 116.71806905777112,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "vendo",
+            "group": "term_cluster_2",
+            "impact_score": 20140.352603562267,
+            "size": 10,
+            "color": "#f34806",
+            "type": "term"
+        },
+        {
+            "id": "faziam",
+            "group": "term_cluster_3",
+            "impact_score": 5794.309038944832,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "amanhã",
+            "group": "term_cluster_1",
+            "impact_score": 116.94420292274326,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "tão",
+            "group": "term_cluster_3",
+            "impact_score": 2395.886419046317,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "rtqkwmy9ts",
+            "group": "term_cluster_1",
+            "impact_score": 39.84390325381651,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "como",
+            "group": "term_cluster_3",
+            "impact_score": 5794.309038944832,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "bonita",
+            "group": "term_cluster_1",
+            "impact_score": 117.6074479820878,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "copacabanaum",
+            "group": "term_cluster_3",
+            "impact_score": 2833.565915427481,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "imagina",
+            "group": "term_cluster_1",
+            "impact_score": 39.59707929050744,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "vamos",
+            "group": "term_cluster_1",
+            "impact_score": 112.19373801107533,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "clipe",
+            "group": "term_cluster_1",
+            "impact_score": 119.9574727109164,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "duda",
+            "group": "term_cluster_1",
+            "impact_score": 119.9574727109164,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "caladinha",
+            "group": "term_cluster_1",
+            "impact_score": 39.56321314969305,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "fazendo",
+            "group": "term_cluster_1",
+            "impact_score": 116.61991045131803,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "vcs",
+            "group": "term_cluster_1",
+            "impact_score": 116.71806905777112,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "gvhz3v1q2m",
+            "group": "term_cluster_1",
+            "impact_score": 119.9574727109164,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "internautas",
+            "group": "term_cluster_1",
+            "impact_score": 39.84390325381651,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "yxenjzxoqn",
+            "group": "term_cluster_3",
+            "impact_score": 2395.886419046317,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "folha",
+            "group": "term_cluster_1",
+            "impact_score": 112.19373801107533,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "brasil",
+            "group": "term_cluster_1",
+            "impact_score": 107.31162660803857,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "band",
+            "group": "term_cluster_3",
+            "impact_score": 3721.959851563088,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "99mentos",
+            "group": "term_cluster_1",
+            "impact_score": 104.64017434878508,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "empenhadas",
+            "group": "term_cluster_3",
+            "impact_score": 2395.886419046317,
+            "size": 10,
+            "color": "#eadb06",
+            "type": "term"
+        },
+        {
+            "id": "surreal",
+            "group": "term_cluster_1",
+            "impact_score": 2110.33487825833,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "surpresa",
+            "group": "term_cluster_1",
+            "impact_score": 39.54445276782529,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "criadas",
+            "group": "term_cluster_1",
+            "impact_score": 1620.97074504185,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        },
+        {
+            "id": "sendo",
+            "group": "term_cluster_1",
+            "impact_score": 2110.33487825833,
+            "size": 10,
+            "color": "#d33c3d",
+            "type": "term"
+        }
+    ],
+    "links": [
+        {
+            "source": "viniceraa_",
+            "target": "show",
+            "value": 20140,
+            "weight": 20140
+        },
+        {
+            "source": "viniceraa_",
+            "target": "madonna",
+            "value": 20140,
+            "weight": 20140
+        },
+        {
+            "source": "viniceraa_",
+            "target": "chegando",
+            "value": 20140,
+            "weight": 20140
+        },
+        {
+            "source": "viniceraa_",
+            "target": "casa",
+            "value": 20140,
+            "weight": 20140
+        },
+        {
+            "source": "viniceraa_",
+            "target": "vendo",
+            "value": 20140,
+            "weight": 20140
+        },
+        {
+            "source": "viniceraa_",
+            "target": "nas",
+            "value": 20140,
+            "weight": 20140
+        },
+        {
+            "source": "viniceraa_",
+            "target": "pochetes",
+            "value": 20140,
+            "weight": 20140
+        },
+        {
+            "source": "viniceraa_",
+            "target": "prep",
+            "value": 20140,
+            "weight": 20140
+        },
+        {
+            "source": "viniceraa_",
+            "target": "madonnainrio",
+            "value": 20140,
+            "weight": 20140
+        },
+        {
+            "source": "viniceraa_",
+            "target": "madonnacelebrationtourinrio",
+            "value": 20140,
+            "weight": 20140
+        },
+        {
+            "source": "viniceraa_",
+            "target": "https",
+            "value": 20140,
+            "weight": 20140
+        },
+        {
+            "source": "viniceraa_",
+            "target": "70rw59bq8c",
+            "value": 20140,
+            "weight": 20140
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "quem",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "twist",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "mulher",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "estava",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "hoje",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "estaria",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "maria",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "solange",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "muda",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "quem",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "admira",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "madonnacelebrationtourinrio",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "madonna",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "parcbrilhantes",
+            "target": "https",
+            "value": 9813,
+            "weight": 9813
+        },
+        {
+            "source": "marilins",
+            "target": "amanheci",
+            "value": 5794,
+            "weight": 5794
+        },
+        {
+            "source": "marilins",
+            "target": "numa",
+            "value": 5794,
+            "weight": 5794
+        },
+        {
+            "source": "marilins",
+            "target": "banca",
+            "value": 5794,
+            "weight": 5794
+        },
+        {
+            "source": "marilins",
+            "target": "tal",
+            "value": 5794,
+            "weight": 5794
+        },
+        {
+            "source": "marilins",
+            "target": "como",
+            "value": 5794,
+            "weight": 5794
+        },
+        {
+            "source": "marilins",
+            "target": "faziam",
+            "value": 5794,
+            "weight": 5794
+        },
+        {
+            "source": "marilins",
+            "target": "astecas",
+            "value": 5794,
+            "weight": 5794
+        },
+        {
+            "source": "marilins",
+            "target": "madonnacelebrationtourinrio",
+            "value": 5794,
+            "weight": 5794
+        },
+        {
+            "source": "marilins",
+            "target": "https",
+            "value": 5794,
+            "weight": 5794
+        },
+        {
+            "source": "marilins",
+            "target": "3hfawuuug5",
+            "value": 5794,
+            "weight": 5794
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "emocionou",
+            "value": 5297,
+            "weight": 5297
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "foto",
+            "value": 5297,
+            "weight": 5297
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "cazuza",
+            "value": 5297,
+            "weight": 5297
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "exibida",
+            "value": 5297,
+            "weight": 5297
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "teste",
+            "value": 5297,
+            "weight": 5297
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "dos",
+            "value": 5297,
+            "weight": 5297
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "telões",
+            "value": 5297,
+            "weight": 5297
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "madonnacelebrationtourinrio",
+            "value": 5297,
+            "weight": 5297
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "https",
+            "value": 5297,
+            "weight": 5297
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "alluwfhogv",
+            "value": 5297,
+            "weight": 5297
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "gente",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "vou",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "aqui",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "pra",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "casa",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "ensaio",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "aconteça",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "vai",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "rolar",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "sim",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "madonna",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "hoje",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "quem",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "acompanhar",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "madonnacelebrationtourinrio",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "https",
+            "value": 4425,
+            "weight": 4425
+        },
+        {
+            "source": "choquei",
+            "target": "band",
+            "value": 3721,
+            "weight": 3721
+        },
+        {
+            "source": "choquei",
+            "target": "entra",
+            "value": 3721,
+            "weight": 3721
+        },
+        {
+            "source": "choquei",
+            "target": "vivo",
+            "value": 3721,
+            "weight": 3721
+        },
+        {
+            "source": "choquei",
+            "target": "durante",
+            "value": 3721,
+            "weight": 3721
+        },
+        {
+            "source": "choquei",
+            "target": "xoxota",
+            "value": 3721,
+            "weight": 3721
+        },
+        {
+            "source": "choquei",
+            "target": "show",
+            "value": 3721,
+            "weight": 3721
+        },
+        {
+            "source": "choquei",
+            "target": "madonna",
+            "value": 3721,
+            "weight": 3721
+        },
+        {
+            "source": "choquei",
+            "target": "copacabana",
+            "value": 3721,
+            "weight": 3721
+        },
+        {
+            "source": "choquei",
+            "target": "madonnainrio",
+            "value": 3721,
+            "weight": 3721
+        },
+        {
+            "source": "choquei",
+            "target": "madonnacelebrationtourinrio",
+            "value": 3721,
+            "weight": 3721
+        },
+        {
+            "source": "choquei",
+            "target": "https",
+            "value": 3721,
+            "weight": 3721
+        },
+        {
+            "source": "choquei",
+            "target": "i2hhtdwtaa",
+            "value": 3721,
+            "weight": 3721
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "emocionou",
+            "value": 3483,
+            "weight": 3483
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "ainda",
+            "value": 3483,
+            "weight": 3483
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "mais",
+            "value": 3483,
+            "weight": 3483
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "renato",
+            "value": 3483,
+            "weight": 3483
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "russo",
+            "value": 3483,
+            "weight": 3483
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "apareceu",
+            "value": 3483,
+            "weight": 3483
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "teste",
+            "value": 3483,
+            "weight": 3483
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "dos",
+            "value": 3483,
+            "weight": 3483
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "telões",
+            "value": 3483,
+            "weight": 3483
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "madonnacelebrationtourinrio",
+            "value": 3483,
+            "weight": 3483
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "https",
+            "value": 3483,
+            "weight": 3483
+        },
+        {
+            "source": "sududoafael",
+            "target": "ela",
+            "value": 3347,
+            "weight": 3347
+        },
+        {
+            "source": "sududoafael",
+            "target": "veiooooooo",
+            "value": 3347,
+            "weight": 3347
+        },
+        {
+            "source": "sududoafael",
+            "target": "madonna",
+            "value": 3347,
+            "weight": 3347
+        },
+        {
+            "source": "sududoafael",
+            "target": "madonnainrio",
+            "value": 3347,
+            "weight": 3347
+        },
+        {
+            "source": "sududoafael",
+            "target": "thecelebrationtourinrio",
+            "value": 3347,
+            "weight": 3347
+        },
+        {
+            "source": "sududoafael",
+            "target": "thecelebrationtour",
+            "value": 3347,
+            "weight": 3347
+        },
+        {
+            "source": "sududoafael",
+            "target": "https",
+            "value": 3347,
+            "weight": 3347
+        },
+        {
+            "source": "sududoafael",
+            "target": "2zez9mddd1",
+            "value": 3347,
+            "weight": 3347
+        },
+        {
+            "source": "bionico",
+            "target": "quantidade",
+            "value": 3272,
+            "weight": 3272
+        },
+        {
+            "source": "bionico",
+            "target": "gente",
+            "value": 3272,
+            "weight": 3272
+        },
+        {
+            "source": "bionico",
+            "target": "aqui",
+            "value": 3272,
+            "weight": 3272
+        },
+        {
+            "source": "bionico",
+            "target": "copacabana",
+            "value": 3272,
+            "weight": 3272
+        },
+        {
+            "source": "bionico",
+            "target": "lindo",
+            "value": 3272,
+            "weight": 3272
+        },
+        {
+            "source": "bionico",
+            "target": "demais",
+            "value": 3272,
+            "weight": 3272
+        },
+        {
+            "source": "bionico",
+            "target": "madonnainrio",
+            "value": 3272,
+            "weight": 3272
+        },
+        {
+            "source": "bionico",
+            "target": "madonnacelebrationtourinrio",
+            "value": 3272,
+            "weight": 3272
+        },
+        {
+            "source": "bionico",
+            "target": "https",
+            "value": 3272,
+            "weight": 3272
+        },
+        {
+            "source": "bionico",
+            "target": "1s84j40ffu",
+            "value": 3272,
+            "weight": 3272
+        },
+        {
+            "source": "choquei",
+            "target": "copacabana",
+            "value": 3246,
+            "weight": 3246
+        },
+        {
+            "source": "choquei",
+            "target": "simplesmente",
+            "value": 3246,
+            "weight": 3246
+        },
+        {
+            "source": "choquei",
+            "target": "lotada",
+            "value": 3246,
+            "weight": 3246
+        },
+        {
+            "source": "choquei",
+            "target": "aguardando",
+            "value": 3246,
+            "weight": 3246
+        },
+        {
+            "source": "choquei",
+            "target": "show",
+            "value": 3246,
+            "weight": 3246
+        },
+        {
+            "source": "choquei",
+            "target": "madonna",
+            "value": 3246,
+            "weight": 3246
+        },
+        {
+            "source": "choquei",
+            "target": "madonnainrio",
+            "value": 3246,
+            "weight": 3246
+        },
+        {
+            "source": "choquei",
+            "target": "madonnacelebrationtourinrio",
+            "value": 3246,
+            "weight": 3246
+        },
+        {
+            "source": "choquei",
+            "target": "https",
+            "value": 3246,
+            "weight": 3246
+        },
+        {
+            "source": "choquei",
+            "target": "xfdmliwdgv",
+            "value": 3246,
+            "weight": 3246
+        },
+        {
+            "source": "tracklist",
+            "target": "chegando",
+            "value": 2914,
+            "weight": 2914
+        },
+        {
+            "source": "tracklist",
+            "target": "anitta",
+            "value": 2914,
+            "weight": 2914
+        },
+        {
+            "source": "tracklist",
+            "target": "show",
+            "value": 2914,
+            "weight": 2914
+        },
+        {
+            "source": "tracklist",
+            "target": "madonna",
+            "value": 2914,
+            "weight": 2914
+        },
+        {
+            "source": "tracklist",
+            "target": "copacabana",
+            "value": 2914,
+            "weight": 2914
+        },
+        {
+            "source": "tracklist",
+            "target": "madonnacelebrationtourinrio",
+            "value": 2914,
+            "weight": 2914
+        },
+        {
+            "source": "tracklist",
+            "target": "https",
+            "value": 2914,
+            "weight": 2914
+        },
+        {
+            "source": "tracklist",
+            "target": "odh01q0qec",
+            "value": 2914,
+            "weight": 2914
+        },
+        {
+            "source": "bionico",
+            "target": "quantidade",
+            "value": 2833,
+            "weight": 2833
+        },
+        {
+            "source": "bionico",
+            "target": "pessoas",
+            "value": 2833,
+            "weight": 2833
+        },
+        {
+            "source": "bionico",
+            "target": "aqui",
+            "value": 2833,
+            "weight": 2833
+        },
+        {
+            "source": "bionico",
+            "target": "copacabanaum",
+            "value": 2833,
+            "weight": 2833
+        },
+        {
+            "source": "bionico",
+            "target": "mar",
+            "value": 2833,
+            "weight": 2833
+        },
+        {
+            "source": "bionico",
+            "target": "gente",
+            "value": 2833,
+            "weight": 2833
+        },
+        {
+            "source": "bionico",
+            "target": "muito",
+            "value": 2833,
+            "weight": 2833
+        },
+        {
+            "source": "bionico",
+            "target": "incrível",
+            "value": 2833,
+            "weight": 2833
+        },
+        {
+            "source": "bionico",
+            "target": "madonnacelebrationtourinrio",
+            "value": 2833,
+            "weight": 2833
+        },
+        {
+            "source": "bionico",
+            "target": "madonnainrio",
+            "value": 2833,
+            "weight": 2833
+        },
+        {
+            "source": "bionico",
+            "target": "https",
+            "value": 2833,
+            "weight": 2833
+        },
+        {
+            "source": "marcelaelaela",
+            "target": "guys",
+            "value": 2395,
+            "weight": 2395
+        },
+        {
+            "source": "marcelaelaela",
+            "target": "tão",
+            "value": 2395,
+            "weight": 2395
+        },
+        {
+            "source": "marcelaelaela",
+            "target": "empenhadas",
+            "value": 2395,
+            "weight": 2395
+        },
+        {
+            "source": "marcelaelaela",
+            "target": "pra",
+            "value": 2395,
+            "weight": 2395
+        },
+        {
+            "source": "marcelaelaela",
+            "target": "amenizar",
+            "value": 2395,
+            "weight": 2395
+        },
+        {
+            "source": "marcelaelaela",
+            "target": "calor",
+            "value": 2395,
+            "weight": 2395
+        },
+        {
+            "source": "marcelaelaela",
+            "target": "madonnainrio",
+            "value": 2395,
+            "weight": 2395
+        },
+        {
+            "source": "marcelaelaela",
+            "target": "madonnacelebrationtourinrio",
+            "value": 2395,
+            "weight": 2395
+        },
+        {
+            "source": "marcelaelaela",
+            "target": "https",
+            "value": 2395,
+            "weight": 2395
+        },
+        {
+            "source": "marcelaelaela",
+            "target": "yxenjzxoqn",
+            "value": 2395,
+            "weight": 2395
+        },
+        {
+            "source": "PabloJhuanBr7",
+            "target": "sendo",
+            "value": 2110,
+            "weight": 2110
+        },
+        {
+            "source": "PabloJhuanBr7",
+            "target": "esse",
+            "value": 2110,
+            "weight": 2110
+        },
+        {
+            "source": "PabloJhuanBr7",
+            "target": "show",
+            "value": 2110,
+            "weight": 2110
+        },
+        {
+            "source": "PabloJhuanBr7",
+            "target": "madonna",
+            "value": 2110,
+            "weight": 2110
+        },
+        {
+            "source": "PabloJhuanBr7",
+            "target": "surreal",
+            "value": 2110,
+            "weight": 2110
+        },
+        {
+            "source": "PabloJhuanBr7",
+            "target": "isso",
+            "value": 2110,
+            "weight": 2110
+        },
+        {
+            "source": "PabloJhuanBr7",
+            "target": "histórico",
+            "value": 2110,
+            "weight": 2110
+        },
+        {
+            "source": "PabloJhuanBr7",
+            "target": "madonnacelebrationtourinrio",
+            "value": 2110,
+            "weight": 2110
+        },
+        {
+            "source": "PabloJhuanBr7",
+            "target": "madonnainrio",
+            "value": 2110,
+            "weight": 2110
+        },
+        {
+            "source": "PabloJhuanBr7",
+            "target": "https",
+            "value": 2110,
+            "weight": 2110
+        },
+        {
+            "source": "PabloJhuanBr7",
+            "target": "avchm3wbsc",
+            "value": 2110,
+            "weight": 2110
+        },
+        {
+            "source": "choquei",
+            "target": "público",
+            "value": 1967,
+            "weight": 1967
+        },
+        {
+            "source": "choquei",
+            "target": "seus",
+            "value": 1967,
+            "weight": 1967
+        },
+        {
+            "source": "choquei",
+            "target": "leques",
+            "value": 1967,
+            "weight": 1967
+        },
+        {
+            "source": "choquei",
+            "target": "antes",
+            "value": 1967,
+            "weight": 1967
+        },
+        {
+            "source": "choquei",
+            "target": "show",
+            "value": 1967,
+            "weight": 1967
+        },
+        {
+            "source": "choquei",
+            "target": "madonna",
+            "value": 1967,
+            "weight": 1967
+        },
+        {
+            "source": "choquei",
+            "target": "copacabana",
+            "value": 1967,
+            "weight": 1967
+        },
+        {
+            "source": "choquei",
+            "target": "madonnainrio",
+            "value": 1967,
+            "weight": 1967
+        },
+        {
+            "source": "choquei",
+            "target": "madonnacelebrationtourinrio",
+            "value": 1967,
+            "weight": 1967
+        },
+        {
+            "source": "choquei",
+            "target": "https",
+            "value": 1967,
+            "weight": 1967
+        },
+        {
+            "source": "choquei",
+            "target": "b4pdfqywre",
+            "value": 1967,
+            "weight": 1967
+        },
+        {
+            "source": "paiva",
+            "target": "dimensão",
+            "value": 1811,
+            "weight": 1811
+        },
+        {
+            "source": "paiva",
+            "target": "disso",
+            "value": 1811,
+            "weight": 1811
+        },
+        {
+            "source": "paiva",
+            "target": "aqui",
+            "value": 1811,
+            "weight": 1811
+        },
+        {
+            "source": "paiva",
+            "target": "madonnacelebrationtourinrio",
+            "value": 1811,
+            "weight": 1811
+        },
+        {
+            "source": "paiva",
+            "target": "https",
+            "value": 1811,
+            "weight": 1811
+        },
+        {
+            "source": "paiva",
+            "target": "milnh6bfw6",
+            "value": 1811,
+            "weight": 1811
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "dia",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "hoje",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "madonna",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "maior",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "show",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "todos",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "tempos",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "das",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "areias",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "copacabana",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "você",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "vai",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "madonnacelebrationtourinrio",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "https",
+            "value": 1650,
+            "weight": 1650
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "completamente",
+            "value": 1620,
+            "weight": 1620
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "madonna",
+            "value": 1620,
+            "weight": 1620
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "compartilha",
+            "value": 1620,
+            "weight": 1620
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "criadas",
+            "value": 1620,
+            "weight": 1620
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "pelos",
+            "value": 1620,
+            "weight": 1620
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "fãs",
+            "value": 1620,
+            "weight": 1620
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "pra",
+            "value": 1620,
+            "weight": 1620
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "comemorar",
+            "value": 1620,
+            "weight": 1620
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "madonnacelebrationtourinrio",
+            "value": 1620,
+            "weight": 1620
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "https",
+            "value": 1620,
+            "weight": 1620
+        },
+        {
+            "source": "SiteMadonnaBR",
+            "target": "j8whuljqga",
+            "value": 1620,
+            "weight": 1620
+        },
+        {
+            "source": "anonsougon",
+            "target": "não",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "vai",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "ser",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "mais",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "iconico",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "madonnacelebrationtourinrio",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "ela",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "não",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "vai",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "material",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "girl",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "maior",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "todashttps",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "anonsougon",
+            "target": "kjgoehgsmu",
+            "value": 1536,
+            "weight": 1536
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "isso",
+            "value": 1513,
+            "weight": 1513
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "não",
+            "value": 1513,
+            "weight": 1513
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "teste",
+            "value": 1513,
+            "weight": 1513
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "madonna",
+            "value": 1513,
+            "weight": 1513
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "está",
+            "value": 1513,
+            "weight": 1513
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "palco",
+            "value": 1513,
+            "weight": 1513
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "copacabana",
+            "value": 1513,
+            "weight": 1513
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "madonnacelebrationtourinrio",
+            "value": 1513,
+            "weight": 1513
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "https",
+            "value": 1513,
+            "weight": 1513
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "xbhdy6jidn",
+            "value": 1513,
+            "weight": 1513
+        },
+        {
+            "source": "raphaelbenaion",
+            "target": "maior",
+            "value": 120,
+            "weight": 120
+        },
+        {
+            "source": "raphaelbenaion",
+            "target": "convenção",
+            "value": 120,
+            "weight": 120
+        },
+        {
+            "source": "raphaelbenaion",
+            "target": "leques",
+            "value": 120,
+            "weight": 120
+        },
+        {
+            "source": "raphaelbenaion",
+            "target": "mundo",
+            "value": 120,
+            "weight": 120
+        },
+        {
+            "source": "raphaelbenaion",
+            "target": "madonna",
+            "value": 120,
+            "weight": 120
+        },
+        {
+            "source": "raphaelbenaion",
+            "target": "madonna",
+            "value": 120,
+            "weight": 120
+        },
+        {
+            "source": "raphaelbenaion",
+            "target": "thecelebrationtourinrio",
+            "value": 120,
+            "weight": 120
+        },
+        {
+            "source": "raphaelbenaion",
+            "target": "thecelebrationtour",
+            "value": 120,
+            "weight": 120
+        },
+        {
+            "source": "raphaelbenaion",
+            "target": "madonnainrio",
+            "value": 120,
+            "weight": 120
+        },
+        {
+            "source": "raphaelbenaion",
+            "target": "https",
+            "value": 120,
+            "weight": 120
+        },
+        {
+            "source": "raphaelbenaion",
+            "target": "ladxpwhqce",
+            "value": 120,
+            "weight": 120
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "cena",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "final",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "clipe",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "saudade",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "você",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "duda",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "beat",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "inspirada",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "cena",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "clipe",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "madonna",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "madonnacelebrationtourinrio",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "https",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "qgdudabeat",
+            "target": "gvhz3v1q2m",
+            "value": 119,
+            "weight": 119
+        },
+        {
+            "source": "FinallyL0V3_",
+            "target": "isla",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "FinallyL0V3_",
+            "target": "bonita",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "FinallyL0V3_",
+            "target": "você",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "FinallyL0V3_",
+            "target": "sempre",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "FinallyL0V3_",
+            "target": "será",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "FinallyL0V3_",
+            "target": "maior",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "FinallyL0V3_",
+            "target": "melhor",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "FinallyL0V3_",
+            "target": "madonnacelebrationtourinriohttps",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "FinallyL0V3_",
+            "target": "pix9wva3re",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "_Flavia_Freire",
+            "target": "você",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "_Flavia_Freire",
+            "target": "olhou",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "_Flavia_Freire",
+            "target": "pessoa",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "_Flavia_Freire",
+            "target": "perguntou",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "_Flavia_Freire",
+            "target": "passa",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "_Flavia_Freire",
+            "target": "cabeça",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "_Flavia_Freire",
+            "target": "dela",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "_Flavia_Freire",
+            "target": "madonna",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "_Flavia_Freire",
+            "target": "madonnacelebrationtourinrio",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "_Flavia_Freire",
+            "target": "https",
+            "value": 117,
+            "weight": 117
+        },
+        {
+            "source": "0geid_",
+            "target": "thecelebrationtourinrio",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "0geid_",
+            "target": "amanhã",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "0geid_",
+            "target": "madonna",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "0geid_",
+            "target": "https",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "0geid_",
+            "target": "yy13k4wlp0",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "stuntedone",
+            "target": "marinalimax",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "stuntedone",
+            "target": "ensaio",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "stuntedone",
+            "target": "madonna",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "stuntedone",
+            "target": "ela",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "stuntedone",
+            "target": "vcs",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "stuntedone",
+            "target": "conseguirem",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "stuntedone",
+            "target": "vip",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "stuntedone",
+            "target": "vão",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "stuntedone",
+            "target": "desobedecer",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "stuntedone",
+            "target": "rainha",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "stuntedone",
+            "target": "madonnacelebrationtourinrio",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "stuntedone",
+            "target": "https",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "tmdqa",
+            "target": "está",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "tmdqa",
+            "target": "palco",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "tmdqa",
+            "target": "fazendo",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "tmdqa",
+            "target": "show",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "tmdqa",
+            "target": "madonna",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "tmdqa",
+            "target": "praia",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "tmdqa",
+            "target": "copacabana",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "tmdqa",
+            "target": "madonnacelebrationtourinrio",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "tmdqa",
+            "target": "https",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "tmdqa",
+            "target": "ifwtoweqhk",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "italolvj",
+            "target": "ela",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "italolvj",
+            "target": "madonna",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "italolvj",
+            "target": "thecelebrationtourinrio",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "italolvj",
+            "target": "madonna",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "italolvj",
+            "target": "https",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "italolvj",
+            "target": "vyprrshqpn",
+            "value": 116,
+            "weight": 116
+        },
+        {
+            "source": "imiguelzz",
+            "target": "sala",
+            "value": 115,
+            "weight": 115
+        },
+        {
+            "source": "imiguelzz",
+            "target": "pronto",
+            "value": 115,
+            "weight": 115
+        },
+        {
+            "source": "imiguelzz",
+            "target": "pro",
+            "value": 115,
+            "weight": 115
+        },
+        {
+            "source": "imiguelzz",
+            "target": "evento",
+            "value": 115,
+            "weight": 115
+        },
+        {
+            "source": "imiguelzz",
+            "target": "ano",
+            "value": 115,
+            "weight": 115
+        },
+        {
+            "source": "imiguelzz",
+            "target": "madonnacelebrationtourinrio",
+            "value": 115,
+            "weight": 115
+        },
+        {
+            "source": "imiguelzz",
+            "target": "https",
+            "value": 115,
+            "weight": 115
+        },
+        {
+            "source": "imiguelzz",
+            "target": "bie4rcltvf",
+            "value": 115,
+            "weight": 115
+        },
+        {
+            "source": "OriginalDollBR",
+            "target": "vamos",
+            "value": 112,
+            "weight": 112
+        },
+        {
+            "source": "OriginalDollBR",
+            "target": "chorar",
+            "value": 112,
+            "weight": 112
+        },
+        {
+            "source": "OriginalDollBR",
+            "target": "esse",
+            "value": 112,
+            "weight": 112
+        },
+        {
+            "source": "OriginalDollBR",
+            "target": "texto",
+            "value": 112,
+            "weight": 112
+        },
+        {
+            "source": "OriginalDollBR",
+            "target": "torcer",
+            "value": 112,
+            "weight": 112
+        },
+        {
+            "source": "OriginalDollBR",
+            "target": "madonna",
+            "value": 112,
+            "weight": 112
+        },
+        {
+            "source": "OriginalDollBR",
+            "target": "madonnacelebrationtourinrio",
+            "value": 112,
+            "weight": 112
+        },
+        {
+            "source": "OriginalDollBR",
+            "target": "madonnainrio",
+            "value": 112,
+            "weight": 112
+        },
+        {
+            "source": "OriginalDollBR",
+            "target": "folha",
+            "value": 112,
+            "weight": 112
+        },
+        {
+            "source": "OriginalDollBR",
+            "target": "https",
+            "value": 112,
+            "weight": 112
+        },
+        {
+            "source": "OriginalDollBR",
+            "target": "za9ljff4re",
+            "value": 112,
+            "weight": 112
+        },
+        {
+            "source": "OriginalDollBR",
+            "target": "https",
+            "value": 112,
+            "weight": 112
+        },
+        {
+            "source": "niconatv",
+            "target": "mais",
+            "value": 111,
+            "weight": 111
+        },
+        {
+            "source": "niconatv",
+            "target": "imagens",
+            "value": 111,
+            "weight": 111
+        },
+        {
+            "source": "niconatv",
+            "target": "aéreas",
+            "value": 111,
+            "weight": 111
+        },
+        {
+            "source": "niconatv",
+            "target": "copacabana",
+            "value": 111,
+            "weight": 111
+        },
+        {
+            "source": "niconatv",
+            "target": "entupida",
+            "value": 111,
+            "weight": 111
+        },
+        {
+            "source": "niconatv",
+            "target": "gente",
+            "value": 111,
+            "weight": 111
+        },
+        {
+            "source": "niconatv",
+            "target": "pro",
+            "value": 111,
+            "weight": 111
+        },
+        {
+            "source": "niconatv",
+            "target": "show",
+            "value": 111,
+            "weight": 111
+        },
+        {
+            "source": "niconatv",
+            "target": "rj2",
+            "value": 111,
+            "weight": 111
+        },
+        {
+            "source": "niconatv",
+            "target": "madonnainrio",
+            "value": 111,
+            "weight": 111
+        },
+        {
+            "source": "niconatv",
+            "target": "madonnacelebrationtourinrio",
+            "value": 111,
+            "weight": 111
+        },
+        {
+            "source": "niconatv",
+            "target": "https",
+            "value": 111,
+            "weight": 111
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "quem",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "quer",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "mais",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "cobertura",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "madonna",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "copacabana",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "hoje",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "madonnacelebrationtourinrio",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "https",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "carlosalbanno",
+            "target": "ksvpmuqcio",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "Elpichula02000",
+            "target": "preparado",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "Elpichula02000",
+            "target": "aqui",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "Elpichula02000",
+            "target": "show",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "Elpichula02000",
+            "target": "madonna",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "Elpichula02000",
+            "target": "melhor",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "Elpichula02000",
+            "target": "proporcionar",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "Elpichula02000",
+            "target": "esse",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "Elpichula02000",
+            "target": "ansiedade",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "Elpichula02000",
+            "target": "madonnacelebrationtourinrio",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "Elpichula02000",
+            "target": "madonnainrio",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "Elpichula02000",
+            "target": "https",
+            "value": 109,
+            "weight": 109
+        },
+        {
+            "source": "imperioMadonna_",
+            "target": "contagem",
+            "value": 107,
+            "weight": 107
+        },
+        {
+            "source": "imperioMadonna_",
+            "target": "dias",
+            "value": 107,
+            "weight": 107
+        },
+        {
+            "source": "imperioMadonna_",
+            "target": "show",
+            "value": 107,
+            "weight": 107
+        },
+        {
+            "source": "imperioMadonna_",
+            "target": "turnê",
+            "value": 107,
+            "weight": 107
+        },
+        {
+            "source": "imperioMadonna_",
+            "target": "the",
+            "value": 107,
+            "weight": 107
+        },
+        {
+            "source": "imperioMadonna_",
+            "target": "tour",
+            "value": 107,
+            "weight": 107
+        },
+        {
+            "source": "imperioMadonna_",
+            "target": "brasil",
+            "value": 107,
+            "weight": 107
+        },
+        {
+            "source": "imperioMadonna_",
+            "target": "madonna",
+            "value": 107,
+            "weight": 107
+        },
+        {
+            "source": "imperioMadonna_",
+            "target": "madonnainrio",
+            "value": 107,
+            "weight": 107
+        },
+        {
+            "source": "imperioMadonna_",
+            "target": "madonnacelebrationtourinrio",
+            "value": 107,
+            "weight": 107
+        },
+        {
+            "source": "imperioMadonna_",
+            "target": "https",
+            "value": 107,
+            "weight": 107
+        },
+        {
+            "source": "fer__lond",
+            "target": "issoooooo",
+            "value": 106,
+            "weight": 106
+        },
+        {
+            "source": "fer__lond",
+            "target": "madonnainrio",
+            "value": 106,
+            "weight": 106
+        },
+        {
+            "source": "fer__lond",
+            "target": "madonnacelebrationtourinrio",
+            "value": 106,
+            "weight": 106
+        },
+        {
+            "source": "fer__lond",
+            "target": "https",
+            "value": 106,
+            "weight": 106
+        },
+        {
+            "source": "fer__lond",
+            "target": "c3x6opzswy",
+            "value": 106,
+            "weight": 106
+        },
+        {
+            "source": "lucgaldino",
+            "target": "rio",
+            "value": 106,
+            "weight": 106
+        },
+        {
+            "source": "lucgaldino",
+            "target": "thecelebrationtourinrio",
+            "value": 106,
+            "weight": 106
+        },
+        {
+            "source": "lucgaldino",
+            "target": "https",
+            "value": 106,
+            "weight": 106
+        },
+        {
+            "source": "lucgaldino",
+            "target": "ve62qfufwk",
+            "value": 106,
+            "weight": 106
+        },
+        {
+            "source": "americanas",
+            "target": "vai",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "curtir",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "madonnacelebrationtourinrio",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "vem",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "conferir",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "funcionamento",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "especial",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "das",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "copacabana",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "https",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "4zrpdibdqy",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "https",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "i0io0ytkgv",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "hoje",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "madonnacelebrationtourinrio",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "pode",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "americanas",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "garantir",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "melhooores",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "passoucestou",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "https",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "dfnuqgdghmbiscoito",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "nestlé",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "protetor",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "99mentos",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "cadafini",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "https",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "americanas",
+            "target": "37vc3e0cah",
+            "value": 104,
+            "weight": 104
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "madonna",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "anitta",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "depois",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "tati",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "público",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "vip",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "cheio",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "blogueirinhas",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "copacabana",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "britney",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "christina",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "aguilera",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "madonnainrio",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "madonnacelebrationtourinrio",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "https",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "QueriaSerVJ",
+            "target": "tjkpfit6jn",
+            "value": 103,
+            "weight": 103
+        },
+        {
+            "source": "matheusviggo",
+            "target": "madonna",
+            "value": 102,
+            "weight": 102
+        },
+        {
+            "source": "matheusviggo",
+            "target": "cheguei",
+            "value": 102,
+            "weight": 102
+        },
+        {
+            "source": "matheusviggo",
+            "target": "rio",
+            "value": 102,
+            "weight": 102
+        },
+        {
+            "source": "matheusviggo",
+            "target": "thecelebrationtourinrio",
+            "value": 102,
+            "weight": 102
+        },
+        {
+            "source": "matheusviggo",
+            "target": "https",
+            "value": 102,
+            "weight": 102
+        },
+        {
+            "source": "matheusviggo",
+            "target": "ecta5emn8v",
+            "value": 102,
+            "weight": 102
+        },
+        {
+            "source": "iamjotab_",
+            "target": "maior",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "iamjotab_",
+            "target": "ano",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "iamjotab_",
+            "target": "madonna",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "iamjotab_",
+            "target": "bob",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "iamjotab_",
+            "target": "the",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "iamjotab_",
+            "target": "queen",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "iamjotab_",
+            "target": "pabllo",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "iamjotab_",
+            "target": "vittar",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "iamjotab_",
+            "target": "madonnacelebrationtourinrio",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "iamjotab_",
+            "target": "madonnacelebrationtour",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "iamjotab_",
+            "target": "https",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "atenção",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "deve",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "palco",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "madonna",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "instantes",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "pra",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "fazer",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "show",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "madonnainrio",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "madonnacelebrationtourinrio",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "https",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "e9wygv4vej",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "gustavojreige",
+            "target": "prontos",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "gustavojreige",
+            "target": "pra",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "gustavojreige",
+            "target": "beijar",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "gustavojreige",
+            "target": "rainha",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "gustavojreige",
+            "target": "madonnainrio",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "gustavojreige",
+            "target": "madonna",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "gustavojreige",
+            "target": "madonnacelebrationtourinrio",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "gustavojreige",
+            "target": "https",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "gustavojreige",
+            "target": "qprpxtitpm",
+            "value": 40,
+            "weight": 40
+        },
+        {
+            "source": "BreakTudo",
+            "target": "madonna",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "internautas",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "vai",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "dos",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "billboard",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "rollingstone",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "dos",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "publicações",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "ensinando",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "gratuitamente",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "show",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "globo",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "https",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "rtqkwmy9ts",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "madonnacelebrationtourinrio",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BreakTudo",
+            "target": "https",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "silasb1402",
+            "target": "isso",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "silasb1402",
+            "target": "galera",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "silasb1402",
+            "target": "madonna",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "silasb1402",
+            "target": "rio",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "silasb1402",
+            "target": "copacabana",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "silasb1402",
+            "target": "thecelebrationtourinrio",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "silasb1402",
+            "target": "thecelebrationtour",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "silasb1402",
+            "target": "https",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "silasb1402",
+            "target": "2frx1v9k7q",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "quantidade",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "leques",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "show",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "madonna",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "copacabana",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "madonnainrio",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "madonnacelebrationtourinrio",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "https",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "horadafofocatv",
+            "target": "udxmsw6pmq",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BrazilianMacca",
+            "target": "estamos",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BrazilianMacca",
+            "target": "chegando",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BrazilianMacca",
+            "target": "vip",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BrazilianMacca",
+            "target": "madonna",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BrazilianMacca",
+            "target": "olho",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BrazilianMacca",
+            "target": "novidades",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BrazilianMacca",
+            "target": "madonnainrio",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BrazilianMacca",
+            "target": "madonnacelebrationtourinrio",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BrazilianMacca",
+            "target": "madonna",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BrazilianMacca",
+            "target": "https",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "BrazilianMacca",
+            "target": "d8r3tp4azw",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "Mariade66683620",
+            "target": "ver",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "Mariade66683620",
+            "target": "emociona",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "Mariade66683620",
+            "target": "imagina",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "Mariade66683620",
+            "target": "pessoalmente",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "Mariade66683620",
+            "target": "madonnacelebrationtourinrio",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "Mariade66683620",
+            "target": "madonna",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "Mariade66683620",
+            "target": "madonna",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "Mariade66683620",
+            "target": "madonnanaglô",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "Mariade66683620",
+            "target": "madonnainrio",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "Mariade66683620",
+            "target": "lindo",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "Mariade66683620",
+            "target": "https",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "SrCScarpa",
+            "target": "anitta",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "SrCScarpa",
+            "target": "pabllo",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "SrCScarpa",
+            "target": "vittar",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "SrCScarpa",
+            "target": "história",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "SrCScarpa",
+            "target": "noite",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "SrCScarpa",
+            "target": "hoje",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "SrCScarpa",
+            "target": "dia",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "SrCScarpa",
+            "target": "deixar",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "SrCScarpa",
+            "target": "gente",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "SrCScarpa",
+            "target": "caladinha",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "SrCScarpa",
+            "target": "madonnacelebrationtourinrio",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "SrCScarpa",
+            "target": "t5cxsvtypm",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "oyurifernandes",
+            "target": "hoje",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "oyurifernandes",
+            "target": "for",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "oyurifernandes",
+            "target": "musica",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "oyurifernandes",
+            "target": "surpresa",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "oyurifernandes",
+            "target": "madonna",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "oyurifernandes",
+            "target": "cantar",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "oyurifernandes",
+            "target": "bang",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "oyurifernandes",
+            "target": "criticar",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "oyurifernandes",
+            "target": "criminalidade",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "oyurifernandes",
+            "target": "rio",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "oyurifernandes",
+            "target": "madonnacelebrationtourinrio",
+            "value": 39,
+            "weight": 39
+        },
+        {
+            "source": "oyurifernandes",
+            "target": "https",
+            "value": 39,
+            "weight": 39
+        }
+    ],
+    "legend": {
+        "description": "Legenda do Grafo",
+        "node_types": {
+            "user": "Usuário influente na rede",
+            "term": "Palavra-chave mais utilizada"
+        },
+        "user_groups": {
+            "Small": "Usuário com pequeno impacto (Amarelo Escuro)",
+            "Medium": "Usuário com impacto médio (Laranja Escuro)",
+            "Large": "Usuário com alto impacto (Magenta Escuro)"
+        },
+        "term_clusters": {
+            "1": "Grupo de termos (Magenta Claro)",
+            "2": "Grupo de termos (Laranja Claro)",
+            "3": "Grupo de termos (Amarelo Claro)"
+        }
+    }
+}

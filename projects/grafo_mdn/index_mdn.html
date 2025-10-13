@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./GUNK-_2_.ico">
+  <title> Madonna In Rio | Gunk</title>
+  <script src="https://unpkg.com/three"></script>
+  <script src="https://unpkg.com/3d-force-graph"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      font-family: "SF Pro Display", Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(-145deg, #343434d0, #211f1f);
+      overflow: hidden;
+    }
+    svg {
+      border: none;
+      background: linear-gradient(-145deg, #191919d0, #211f1f)
+    }
+
+    .legend-container {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background: rgba(255, 255, 255, 0.448);
+      backdrop-filter: blur(10px);
+      padding: 12px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      font-family: Arial, sans-serif;
+      border: none;
+    }
+
+    .legend-title {
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 8px;
+      text-align: center;
+      color: #2b2b2b;
+    }
+
+    .legend-items {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      color: #3f3f3f;
+      font-size: 13px;
+    }
+
+    .legend-color {
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      margin-right: 8px;
+      display: inline-block;
+      border: 1px solid rgba(102, 102, 102, 0.5);
+    }
+    
+    /* Botão de voltar */
+    #back-button {
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      padding: 12px 15px;
+      font-size: 15px;
+      background: rgba(255, 255, 255, 0.448);
+      border-radius: 50%;
+      color: rgb(40, 39, 39);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      z-index: 10;
+      border-radius: 50%;
+    }
+    
+    #back-button:hover {
+      background: rgba(197, 0, 26, 0.778);
+      color: rgba(127, 1, 18, 0.778);
+      transform: scale(1.05);
+    }
+
+    /* Estilo do botão de abrir o menu */
+    #menu-toggle {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      padding: 12px 13px;
+      font-size: 15px;
+      background: rgba(255, 255, 255, 0.448);
+      backdrop-filter: blur(10px);
+      border-radius: 25%;
+      color: #2b2b2b;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      z-index: 10;
+      border: none;
+    }
+
+    #menu-toggle:hover {
+      background: rgba(197, 0, 26, 0.778);
+      color: rgba(127, 1, 18, 0.778);
+      transform: scale(1.05);
+    }
+
+    /* Painel de Informações */
+    #info-panel {
+      position: fixed;
+      top: 0;
+      right: -450px; /* Esconde o menu fora da tela */
+      width: 350px;
+      height: 100vh; /* Garante que ocupa toda a altura da tela */
+      background: rgba(210, 210, 210, 0.381);
+      backdrop-filter: blur(15px);
+      border-left: none;
+      box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+      transition: right 0.3s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      overflow: hidden;
+      padding: 10px;
+    }
+
+    #info-panel.open {
+      right: 0; /* Mostra o menu */
+    }
+
+    /* Botão de Fechar */
+    #close-btn {
+      align-self: flex-end;
+      background: rgba(255, 255, 255, 0.3);
+      border: none;
+      padding: 5px 10px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 50%;
+      transition: background 0.3s ease-in-out;
+    }
+    
+    #close-btn:hover {
+      background: rgba(197, 0, 26, 0.778);
+      color: rgba(127, 1, 18, 0.778);
+    }
+
+    /* Botões do menu */
+    .info-tab {
+      width: 90%;
+      padding: 15px;
+      padding-right: 20px;
+      padding-left: 10px;
+      margin: 5px 0;
+      border: none;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+    }
+
+    .info-tab:hover {
+      background: rgba(69, 69, 69, 0.274);
+    } 
+
+    /* Seções de Conteúdo */
+    .info-section {
+      position: absolute;
+      top: 0;
+      left: 100%;
+      width: 100%;
+      height: 100%; /* Garante que ocupa todo o painel */
+      opacity: 0;
+      border-radius: 30%;
+      transform: translateX(100%);
+      transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out;
+      padding: 2px;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(15px);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; /* Alinha o conteúdo ao topo */
+      align-items: center;
+      overflow-y: auto; /* Adiciona barra de rolagem vertical */
+    }
+
+    .info-section.active {
+      display: block;
+      left: 0;
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    /* Estiliza a barra de rolagem na vertical */
+    .info-section::-webkit-scrollbar {
+      width: 8px; /
+    }
+
+    .info-section::-webkit-scrollbar-track {
+      background: #444040; /* Cor do fundo */
+      border-radius: 8px;
+    }
+
+    .info-section::-webkit-scrollbar-thumb {
+      background: #b0b0b0; /* Cor da barra de rolagem */
+      border-radius: 5px;
+    }
+
+   .info-section::-webkit-scrollbar-thumb:hover {
+     background: #016492; /* Cor mais vibrante ao passar o mouse */
+    }
+
+    .back-to-menu {
+      margin-top: 10px;
+      padding: 6px 12px;
+      background: rgba(255, 255, 255, 0.3);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+    }
+
+    .back-to-menu:hover {
+      background: rgba(197, 0, 26, 0.778);
+      color: rgba(127, 1, 18, 0.778);
+    }
+
+    /* Estilo Info-Section */
+    #info-content {
+      flex: 1; 
+      width: 100%;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+    }
+ 
+    .info-section {
+      position: absolute;
+      top: 0;
+      left: 100%;
+      width: 80%;
+      height: 100%; 
+      max-width: 600px;
+      opacity: 0;
+      transform: translateX(100%);
+      transition: transform 0.4s ease-in-out, opacity 0.3s ease-in-out;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(15px);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; 
+      align-items: center;
+      overflow-y: auto; 
+      border-radius: 18px; 
+      text-align: justify;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    .info-section h3 {
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .info-section h4 {
+      font-size: 15px;
+      margin-top: 10px;
+    }
+
+    /* Mostra a seção ativa com animação */
+    .info-section.active {
+      left: 0;
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .info-section p {
+      width: 95%;
+      max-width: 550px; /* Mantém a leitura confortável */
+      text-align: justify;
+      font-size: 13px;
+      line-height: 1.5;
+      padding: 8px 0;
+    }
+
+    .info-section ul {
+      list-style: none;
+      padding: 0;
+      width: 90%;
+      max-width: 550px;
+    }
+
+    .info-section ul li {
+      margin-bottom: 6px;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .info-section ul li::before {
+      content: "📌"; /* Adiciona um ícone de marcador */
+    }
+    
+    /* Botão de voltar ao menu */
+    .back-to-menu {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(180, 180, 180, 0.15);
+      color: rgb(114, 105, 105);
+      border: none;
+      padding: 6px 12px;
+      border-radius: 100%;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+    }
+
+    .back-to-menu:hover {
+      background: rgba(231, 63, 63, 0.5);
+    }
+
+    /* Melhor espaçamento nos textos */
+    .info-section h3 {
+      margin-top: 40px;
+      font-size: 18px;    
+      color: rgb(49, 47, 47);
+    }
+
+    .info-section p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: rgb(49, 47, 47);
+    }
+
+    #info-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding: 10px;
+      margin-top: 10px;
+    }
+
+    #info-menu h2 {
+      text-align: center;
+    }
+
+    .info-section ul h4 {
+      text-align: start;
+    }
+
+    .info-section ul {
+      list-style: none;
+      padding: 10px;
+      width: 90%;
+      max-width: 600px;
+      text-align: start;
+      font-size: 13px;
+      border: none;
+      border-radius: 10px;
+      background-color: #cecece94;
+      display: block;
+    }
+
+    .info-section ul li {
+      margin-bottom: 6px;
+      font-size: 13px;
+      display: block;
+      align-items: start;
+    }
+
+    .info-section ul li::before {
+      font-size: 14px;
+      content: "°"; /* Adiciona um ícone de marcador */
+    }
+
+    #info-menu.hidden {
+      opacity: 0;
+      transform: translateX(-100%);
+      pointer-events: none;
+      transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    /* Painel principal das seções */
+    #info-content {
+      flex: 1; 
+      width: 100%;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+    }
+
+    table {
+    width: 80%;
+    border-collapse:collapse;
+    margin-top: none;
+    margin-bottom: 2px;
+    }
+    
+    th, td {
+      border: 1px solid #5f5f5f;
+      padding: 10px;
+      text-align: left;
+    }
+    
+    th {
+      background: #c8c8c8;
+    }
+
+    #user-term-table {
+    width: 80%; /* Diminui a largura total da tabela */
+    max-width: 600px; /* Define um limite máximo para evitar tabelas muito largas */
+    margin: 10px auto; /* Centraliza e adiciona espaço ao redor */
+    font-size: 13px; /* Reduz o tamanho da fonte */
+    border-collapse: collapse;
+    }
+    
+    #user-term-table th, #user-term-table td {
+      padding: 8px; /* Reduz o espaçamento interno */
+      text-align: left;
+      border: 1px solid #ccc;
+    }
+    
+    #user-term-table th {
+      background: #f2f2f2;
+      font-size: 13px; /* Mantém o cabeçalho um pouco maior */
+    }
+
+    #user-term-table tr:last-child td {
+      padding-bottom: 30px; /* Aumenta o espaçamento inferior */
+    }
+
+    #toggle-view {
+      position: absolute;
+      top: 20px; /* Define a posição no topo */
+      left: 50%; /* Centraliza horizontalmente */
+      transform: translateX(-50%); /* Corrige a centralização exata */
+      padding: 12px 15px;
+      font-size: 12px;
+      color: #2b2b2b;
+      background: rgba(255, 255, 255, 0.448);
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      z-index: 10;
+      border: none;
+    }
+
+    #toggle-view:hover {
+      background: rgba(197, 0, 26, 0.778);
+      color: rgba(127, 1, 18, 0.778);
+      transform: translateX(-50%) scale(1.05); /* Mantém a centralização ao passar o mouse */
+    }
+
+    /* (Preloader) */
+    #preloader {
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(135deg, #940909, #9b0707); /* Gradiente escuro e sofisticado */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      font-size: 20px;
+      font-family: "Arial", sans-serif;
+      text-align: center;
+      z-index: 9999;
+      opacity: 1;    
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .loader {
+      width: 60px;
+      height: 60px;
+      background: linear-gradient(135deg, #d7dde4, #ca0101);
+      border-radius: 50%;
+      box-shadow: 0 0 15px rgba(255, 204, 0, 0.714);
+      animation: pulse 1.5s infinite alternate ease-in-out;
+      margin-bottom: 15px;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 15px rgba(183, 15, 6, 0.6);
+    }
+    100% {
+        transform: scale(1.3);
+        box-shadow: 0 0 25px rgb(227, 33, 3);
+    }
+  }
+
+  .hidden {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    pointer-events: none;
+  }
+
+  #loading-text {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 2s steps(15, end) forwards;
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 150px; }
+  }
+
+  .hidden {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    pointer-events: none;
+  }
+  </style>
+</head>
+<body>
+  <div id="preloader">
+    <div class="loader"></div>
+    <p>Carregando: Madonna In Rio</p>
+</div>
+  <div id="graph-container"></div>  
+<div id="graph"></div>
+<!-- Botões -->
+<a href="http://gunnk.com/viz" id="back-button">⮌</a>
+<button id="toggle-view">Switch</button>
+<button id="menu-toggle">ℹ Menu</button>
+
+<div class="legend-container">
+  <div class="legend-title">📌 Legenda</div>
+  <div class="legend-items">
+    <!-- Itens da legenda serão adicionados dinamicamente via JavaScript -->
+  </div>
+</div>
+
+<!-- Painel de Informações -->
+<div id="info-panel">
+  <button id="close-btn">✖</button>
+
+  <!-- Menu Principal -->
+  <div id="info-menu">
+    <h2>Menu de Informações</h2>
+    <button class="info-tab" data-tab="intro">🔵Introdução</button>
+    <button class="info-tab" data-tab="general">🟡Análise Geral</button>
+    <button class="info-tab" data-tab="context">🟣Base de Dados</button>
+    <button class="info-tab" data-tab="graph-info">🔴Organização do Grafo</button>
+    <button class="info-tab" data-tab="tools">🟠Ferramentas Utilizadas</button>
+  </div>
+
+  <!-- Seções de Conteúdo -->
+  <div id="info-content">
+    <div class="info-section" id="intro">
+      <button class="back-to-menu">🡄</button>
+      <h3>🔵 Introdução </h3>
+        <div class="info-content">
+            <p><strong>O que o grafo representa?</strong></p>
+            <p>Esta visualização interativa representa as interações entre usuários e os principais termos discutidos no <strong>Twitter/X</strong> durante a semana do show da <strong>Madonna - The Celebration Tour in Rio</strong>, ocorrido em <strong>4 de maio de 2024</strong>.</p>
+            
+            <p>O grafo busca capturar a dinâmica das conversas que aconteceram no Twitter ao longo do evento, identificando usuários influentes e os temas mais relevantes debatidos na plataforma.</p>
+        </div>
+    
+        <div class="info-content">
+            <p><strong>📌 Como o grafo foi construído?</strong></p>
+            <p>Os dados foram coletados entre os dias <strong>29 de abril e 4 de maio</strong>, abrangendo tanto o dia do show quanto a semana que antecedeu o evento. A partir desses tweets, processamos informações-chave para criar conexões significativas entre usuários e termos.</p>
+    
+            <p>Cada nó (<strong>ponto no grafo</strong>) representa um <strong>usuário</strong> ou um <strong>termo</strong>, e cada conexão entre eles indica a associação entre um perfil e uma palavra-chave usada em suas publicações.</p>
+        </div>
+    
+        <div class="info-content">
+            <p><strong>🕵 O que podemos observar na rede?</strong></p>
+            <ul>
+                <li><strong>Usuários influentes:</strong> perfis que geraram maior impacto na conversa sobre o evento.</li>
+                <li><strong>Tendências de discussão:</strong> temas e hashtags que se destacaram ao longo da semana.</li>
+                <li><strong>Conexões entre pessoas e palavras-chave:</strong> mostrando como diferentes grupos participaram das conversas.</li>
+            </ul><br>
+        </div>
+     </div>     
+
+    <div class="info-section" id="general">
+      <button class="back-to-menu">🡄</button>
+        <h3>🟡Análise Geral</h3>  
+          <div class="analysis-section">
+            <div id="considerations" class="analysis-section">
+              <h4>📌 Considerações Gerais</h4>
+              <p>
+                  A análise do grafo revelou que a conversa sobre o show da Madonna foi altamente <strong>centralizada</strong>, com poucos usuários dominando a narrativa e uma grande concentração de termos em um único cluster. Isso sugere que a comunicação sobre o evento seguiu uma <strong>linha narrativa homogênea</strong>, impulsionada - mais fortemente - por perfis influentes e marcas com alto impacto na rede, e não de uma forma orgânica entre os usuários.
+              </p>
+              <p>
+                  Além disso, a presença de portais de notícias e perfis comerciais como hubs centrais indica que a <strong>cobertura midiática</strong> teve um papel significativo na construção da discussão. A predominância de termos como <em>"madonnacelebrationtourinrio", "show" e "copacabana"</em> reforça que a narrativa principal girou em torno da <strong>grandeza e da experiência do evento</strong>, com pouca segmentação temática.
+              </p>
+          </div>
+          <h4>📊 Estatísticas Gerais</h4>
+              <ul>
+                  <li><strong>Número total de nós</strong> 305 (Usuários e Termos combinados)</li>
+                  <li><strong>Número total de arestas:</strong> 472 (Conexões entre usuários e termos)</li>
+                  <li><strong>Densidade do grafo:</strong> 0.010 (Rede dispersa com poucos hubs de influência)</li>
+              </ul>
+          </div>
+      
+          <div class="analysis-section">
+              <h4>🌟 Principais Hubs de Influência</h4>
+              <ul>
+                  <li><strong>SiteMadonnaBR</strong> - 35 conexões</li>
+                  <li><strong>madonnacelebrationtourinrio</strong> - 32 conexões</li>
+                  <li><strong>madonna</strong> - 28 conexões</li>
+                  <li><strong>carlosalbanno</strong> - 27 conexões</li>
+                  <li><strong>americanas</strong> - 25 conexões</li>
+                  <li><strong>choquei</strong> - 21 conexões</li>
+                  <li><strong>madonnainrio</strong> - 17 conexões</li>
+                  <li><strong>QueriaSerVJ</strong> - 16 conexões</li>
+                  <li><strong>horadafofocatv</strong> - 16 conexões</li>
+              </ul>
+          </div>
+      
+          <div class="analysis-section">
+              <h4>🎯 Impact Score</h4>
+              <ul>
+                  <li>Número de conexões (grau do nó)</li>
+                  <li>Importância dentro da rede (interações recebidas e enviadas)</li>
+                  <li>Peso das conexões (se algumas conexões têm mais influência)</li>
+              </ul>
+          </div>
+      
+          <div class="analysis-section">
+              <h4>💡 Principais Temas Discutidos</h4>
+              <ul>
+                  <li>🔥 A turnê de <strong>Madonna</strong> e seu impacto na conversa.</li>
+                  <li>📰 A presença de <strong>marcas e veículos de mídia</strong> como "americanas" e "choquei".</li>
+              </ul>
+          </div>
+      
+          <div class="analysis-section">
+              <h4>Como os Clusters Foram Definidos?</h4>
+              <p>Os termos foram agrupados em clusters baseados em:</p>
+              <ul>
+                  <li>📏 <strong>Comprimento do termo</strong></li>
+                  <li>📈 <strong>Impact Score do termo</strong></li>
+              </ul>
+              <p>Isso permitiu a criação de três clusters distintos:</p>
+              <ul>
+                  <li><strong>Cluster 1 (Vermelho Claro)</strong> → Termos mais influentes na conversa.</li>
+                  <li><strong>Cluster 2 (Laranja Claro)</strong> → Termos de influência intermediária.</li>
+                  <li><strong>Cluster 3 (Amarelo Claro)</strong> → Termos menos recorrentes, mas ainda relevantes.</li>
+              </ul>
+          </div>
+      
+          <div class="analysis-section">
+              <h4>📌 Diferenças entre Usuários e Termos</h4>
+              <table id="user-term-table">
+                <tr>
+                      <th>Grupo</th>
+                      <th>Descrição</th>
+                      <th>Cor</th>
+                  </tr>
+                  <tr>
+                      <td>Usuários Large (Alto Impacto)</td>
+                      <td>Perfis de alto engajamento na rede.</td>
+                      <td style="background-color: #831008; color: white;">Vermelho Escuro</td>
+                  </tr>
+                  <tr>
+                      <td>Usuários Medium (Médio Impacto)</td>
+                      <td>Perfis com participação moderada.</td>
+                      <td style="background-color: #bb3d0c; color: white;">Laranja Escuro</td>
+                  </tr>
+                  <tr>
+                      <td>Usuários Small (Baixo Impacto)</td>
+                      <td>Perfis menos influentes.</td>
+                      <td style="background-color: #ecde18; color: black;">Amarelo Escuro</td>
+                  </tr>
+                  <tr>
+                      <td>Cluster 1 (Termos)</td>
+                      <td>Termos altamente influentes.</td>
+                      <td style="background-color: #bb2e2e; color: white;">Vermelho Claro</td>
+                  </tr>
+                  <tr>
+                      <td>Cluster 2 (Termos)</td>
+                      <td>Termos com impacto intermediário.</td>
+                      <td style="background-color: #f34806; color: white;">Laranja Claro</td>
+                  </tr>
+                  <tr>
+                      <td>Cluster 3 (Termos)</td>
+                      <td>Termos menos recorrentes.</td>
+                      <td style="background-color: #eadb06; color: black;">Amarelo Claro</td>
+                  </tr>
+              </table>
+          </div>
+      </div>
+           
+    <div class="info-section" id="context">
+      <button class="back-to-menu">🡄</button>
+        <h3>🟣Base de Dados</h3>
+            <p>Os dados foram coletados no <strong>Twitter/X</strong> entre os dias <strong>29 de abril e 4 de maio de 2024</strong>. O objetivo da coleta foi capturar as interações e tendências sobre o show da <strong>Madonna - The Celebration Tour in Rio</strong>. O dataset contém informações sobre <strong>tweets, usuários, interações e palavras-chave</strong> associadas ao evento.
+            </p>
+    
+        <div class="info-content">
+            <h4>🟣Estrutura do Dataset</h4>
+            <p>O dataset é composto por dados gerais, métricas de rede e conteúdo do usuário, sendo os mais relevantes:</p>
+               <ul>
+                <li><strong>Engajamento:</strong></li>
+                <ul>
+                    <li><strong>Retweets:</strong> Número de vezes que o tweet foi retweetado.</li>
+                    <li><strong>Comments:</strong> Número de comentários no tweet.</li>
+                    <li><strong>Favorites:</strong> Quantidade de curtidas recebidas.</li>
+                </ul>
+                <li><strong>Texto e Conteúdo:</strong></li>
+                <ul>
+                    <li><strong>Tweet Text:</strong> O conteúdo do tweet.</li>
+                    <li><strong>Tweet Keywords:</strong> Lista de palavras-chave extraídas do texto.</li>
+                    <li><strong>Topic Cluster:</strong> Classificação do tweet em um tema principal (exemplo: entretenimento).</li>
+                </ul>
+                <li><strong>Impacto e Influência:</strong></li>
+                <ul>
+                    <li><strong>Impact Score Atualizado:</strong> Pontuação que mede a relevância do usuário.</li>
+                    <li><strong>Influence Rank:</strong> Classificação do usuário com base no impacto.</li>
+                </ul>
+            </ul>
+        </div>
+    
+        <div class="info-content">
+            <h4>🟣Processamento dos Dados</h4>
+            <p>Criamos um script em Python que foi responsável pela estruturação dos dados no grafo, sendo as principais:</p>
+            <ul>
+                <li><strong>Clusterização com K-Means:</strong> Os termos foram agrupados em <strong>três grupos temáticos</strong>.</li>
+                <li><strong>Categorização de impacto:</strong> Usuários foram classificados como <strong>Small, Medium ou Large</strong>, de acordo com a influência.</li>
+                <li><strong>Geração do grafo JSON:</strong> Criou conexões entre usuários e termos para a visualização.</li>
+            </ul><br>
+        </div>
+    </div>
+    
+    <div class="info-section" id="graph-info">
+      <button class="back-to-menu">🡄</button>
+        <h3>🔴 Organização do Grafo</h3>
+        <div class="info-content">
+            <p>O grafo foi construído para representar as interações entre os <strong>usuários mais influentes</strong> e os <strong>termos mais relevantes</strong> da discussão sobre o evento.
+            Cada <strong>nó</strong> (ponto no grafo) representa um <strong>usuário</strong> ou um <strong>termo-chave</strong>.
+            Cada <strong>aresta</strong> (linha conectando os nós) indica a relação entre um usuário e uma palavra-chave utilizada em seu tweet.</p>
+        </div>
+    
+        <div class="info-content">
+            <h4>🔹 Grupos e Classificação</h4>
+            <p>Os usuários foram categorizados em três grupos com base em seu impacto na rede:</p>
+            <ul>
+                <li><strong>Large:</strong> Usuários com <strong>alto impacto</strong> na conversa.</li>
+                <li><strong>Medium:</strong> Usuários com <strong>impacto médio</strong>.</li>
+                <li><strong>Small:</strong> Usuários com <strong>menor impacto</strong>.</li>
+            </ul>
+            <p>Os termos foram agrupados automaticamente usando <strong>clusterização com K-Means</strong>, formando três grupos distintos.</p>
+        </div>
+    
+        <div class="info-content">
+            <h4>🔴 Critérios para Conexões</h4>
+            <p>As conexões entre os nós foram estabelecidas com base em regras específicas:</p>
+            <ul>
+                <li> Cada <strong>usuário</strong> foi conectado às <strong>principais palavras-chave</strong> que utilizou.</li>
+                <li> Apenas conexões mais relevantes foram mantidas, eliminando <strong>nós isolados</strong>.</li>
+                <li> O peso das conexões foi determinado pelo <strong>Impact Score</strong> do usuário.</li>
+            </ul>
+        </div>
+    
+        <div class="info-content">
+            <h4>🔴 Algoritmo e Layout do Grafo</h4>
+            <p>O grafo utiliza um layout dinâmico baseado no <strong>algoritmo force-directed</strong>, que distribui os nós para evitar sobreposição e facilitar a visualização.</p>
+            <ul>
+                <li> <strong>Cores personalizadas</strong> foram aplicadas para diferenciar os grupos de usuários e termos. Mais escuras são os usuários, mais claras os termos</li>
+                <li> O <strong>tamanho dos nós</strong> é proporcional ao <strong>impacto do usuário ou termo na rede</strong>.</li>
+                <li> O algoritmo ajusta automaticamente a disposição dos nós para melhorar a <strong>compreensão das conexões</strong>.</li>
+            </ul><br>
+        </div>
+    </div>              
+    
+    <div class="info-section" id="tools">
+        <button class="back-to-menu">🡄</button>
+        <h3>🟠Ferramentas Utilizadas</h3>    
+        <div class="info-content">
+            <p>Para estruturar os dados e prepará-los para o grafo, utilizamos:</p>
+            <ul>
+                <li>🐍 <strong>Python + Pandas:</strong> Manipulação e filtragem do dataset.</li>
+                <li>🔢 <strong>Scikit-learn (K-Means):</strong> Clusterização dos termos para agrupar palavras-chave similares.</li>
+                <li>📝 <strong>JSON:</strong> Conversão dos dados processados para um formato adequado para visualização interativa.</li>
+            </ul>
+        </div>
+    
+        <div class="info-content">
+            <h4>🟠Criação do Grafo</h4>
+            <p>A visualização do grafo foi desenvolvida utilizando:</p>
+            <ul>
+                <li>📊 <strong>D3.js:</strong> Biblioteca JavaScript para renderização de grafos interativos.</li>
+                <li>🖥️ <strong>Three.js:</strong> Implementação de gráficos 3D para melhor experiência visual.</li>
+                <li>🌐 <strong>HTML, CSS e JavaScript:</strong> Construção da interface e interatividade do painel de informações.</li>
+            </ul>
+        </div>
+    
+        <div class="info-content">
+            <h4>🟠Destaques da Implementação</h4>
+            <ul>
+                <li><strong>Filtragem e clusterização de dados:</strong> Identificação dos usuários e termos mais relevantes.</li>
+                <li><strong>Geração automática do grafo JSON:</strong> Transformação dos dados para visualização dinâmica.</li>
+                <li><strong>Visualização interativa:</strong> O grafo permite navegação e análise dinâmica das conexões.</li>
+            </ul><br>
+        </div>
+    </div>
+    
+    </div>
+  </div>
+</div>
+<script>
+// Carrega o grafo a partir do arquivo JSON
+fetch('data01.json')
+  .then(res => res.json())
+  .then(data => {
+    
+    if (!data.nodes || !data.links) {
+        console.error("Erro: JSON não contém 'nodes' ou 'links'.");
+        return;
+    }
+
+    let is3D = true; // Inicia com a visualização 3D
+
+    function updateGraphView() {
+        document.getElementById("graph-container").innerHTML = ""; // Limpa o container antes de alternar
+
+        if (is3D) {
+            renderGraph3D(data);
+        } else {
+            renderGraph2D(data);
+        }
+    }
+
+    function renderGraph3D(data) {
+        const Graph = ForceGraph3D()(document.getElementById("graph-container"))
+            .graphData(data)
+            .nodeLabel(node => `${node.id}`)
+            .nodeVal(node => node.size * 1)
+            .nodeColor(node => node.color) 
+            .linkOpacity(0.3)
+            .linkWidth(0.8)
+            .backgroundColor('#1a1a1a');
+
+        Graph.cameraPosition({ x: 0, y: 0, z: 650 });
+    }
+
+    function renderGraph2D(data) {
+        const svg = d3.select("#graph-container").append("svg")
+            .attr("width", window.innerWidth)
+            .attr("height", window.innerHeight);
+
+        const simulation = d3.forceSimulation(data.nodes)
+            .force("link", d3.forceLink(data.links).id(d => d.id).distance(50))
+            .force("charge", d3.forceManyBody().strength(-100))
+            .force("center", d3.forceCenter(window.innerWidth / 2, window.innerHeight / 2));
+
+        const link = svg.append("g")
+           .selectAll("line")
+           .data(data.links)
+           .enter().append("line")
+           .attr("stroke", "#aaa")
+           .attr("stroke-opacity", 0.2);
+
+        const node = svg.append("g")
+            .selectAll("circle")
+            .data(data.nodes)
+            .enter().append("circle")
+            .attr("r", 10)
+            .attr("fill", d => d.color)
+            .call(drag(simulation));
+
+        const labels = svg.append("g")
+            .selectAll("text")
+            .data(data.nodes)
+            .enter().append("text")
+            .attr("font-size", "10px")
+            .attr("fill", "#dadada")
+            .attr("text-anchor", "middle")
+            .attr("dy", -8)
+            .text(d => d.id);
+
+        function drag(simulation) {
+            function dragstarted(event, d) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                d.fx = d.x;
+                d.fy = d.y;
+            }
+
+            function dragged(event, d) {
+                d.fx = event.x;
+                d.fy = event.y;
+            }
+
+            function dragended(event, d) {
+                if (!event.active) simulation.alphaTarget(0);
+                d.fx = null;
+                d.fy = null;
+            }
+
+            return d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended);
+        }
+
+        simulation.on("tick", () => {
+            link
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
+
+            node
+                .attr("cx", d => d.x)
+                .attr("cy", d => d.y);
+
+            labels
+                .attr("x", d => d.x)
+                .attr("y", d => d.y);
+        });
+    }
+
+    // 🔥 Código para corrigir o menu lateral e torná-lo clicável
+    const menuToggle = document.getElementById("menu-toggle");
+    const infoPanel = document.getElementById("info-panel");
+    const closeBtn = document.getElementById("close-btn");
+    const infoMenu = document.getElementById("info-menu");
+    const infoTabs = document.querySelectorAll(".info-tab");
+    const infoSections = document.querySelectorAll(".info-section");
+    const backButtons = document.querySelectorAll(".back-to-menu");
+
+    // Abrir e fechar o menu corretamente
+    if (menuToggle) {
+        menuToggle.addEventListener("click", () => {
+            infoPanel.classList.add("open");
+            menuToggle.style.display = "none";
+        });
+    }
+
+    if (closeBtn) {
+        closeBtn.addEventListener("click", () => {
+            infoPanel.classList.remove("open");
+            resetSections();
+            menuToggle.style.display = "block";
+        });
+    }
+
+    // Alternar entre as seções do menu
+    infoTabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+            infoMenu.style.display = "none";
+            infoSections.forEach(section => section.classList.remove("active"));
+            document.getElementById(tab.dataset.tab).classList.add("active");
+        });
+    });
+
+    // Botão para voltar ao menu principal
+    backButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            resetSections();
+        });
+    });
+
+    // Função para resetar as seções do menu
+    function resetSections() {
+        infoMenu.style.display = "block";
+        infoSections.forEach(section => section.classList.remove("active"));
+    }
+
+    // 🔥 Adicionando os botões "Alternar para 3D/2D"
+
+    const toggleViewBtn = document.getElementById("toggle-view");
+
+    if (toggleViewBtn) {
+      toggleViewBtn.addEventListener("click", function () {
+        is3D = !is3D; // Alterna entre 3D e 2D
+        updateGraphView();
+    });
+  }
+
+
+    function updateLegend(data) {
+    const legendContainer = document.querySelector(".legend-items");
+
+    if (!legendContainer) {
+        console.error("Elemento '.legend-items' não encontrado.");
+        return;
+    }
+
+    legendContainer.innerHTML = ""; // 🔥 Limpa a legenda antes de atualizar
+
+    const colorMapping = {
+        "Large": "#ad0b00",  // Vermelho Escuro
+        "Medium": "#bb3d0c",  // Laranja Escuro
+        "Small": "#ecde18",  // Amarelo Escuro
+        "term_cluster_1": "#d33c3d", // Vermelho Claro
+        "term_cluster_2": "#f34806", // Laranja Claro
+        "term_cluster_3": "#eadb06"  // Amarelo Claro
+    };
+
+    const userGroups = ["Large", "Medium", "Small"];
+    const termClusters = ["term_cluster_1", "term_cluster_2", "term_cluster_3"];
+
+    const userTitle = document.createElement("h4");
+    userTitle.textContent = "Usuários";
+    legendContainer.appendChild(userTitle);
+
+    userGroups.forEach(group => {
+        if (data.nodes.some(node => node.group === group)) {
+            const legendItem = document.createElement("div");
+            legendItem.classList.add("legend-item");
+
+            const colorBox = document.createElement("span");
+            colorBox.classList.add("legend-color");
+            colorBox.style.backgroundColor = colorMapping[group] || "#ccc";
+
+            const textLabel = document.createElement("span");
+            textLabel.textContent = `Usuário ${group}`;
+
+            legendItem.appendChild(colorBox);
+            legendItem.appendChild(textLabel);
+            legendContainer.appendChild(legendItem);
+        }
+    });
+
+    const termTitle = document.createElement("h4");
+    termTitle.textContent = "Termos (Clusters)";
+    legendContainer.appendChild(termTitle);
+
+    termClusters.forEach(cluster => {
+        if (data.nodes.some(node => node.group === cluster)) {
+            const legendItem = document.createElement("div");
+            legendItem.classList.add("legend-item");
+
+            const colorBox = document.createElement("span");
+            colorBox.classList.add("legend-color");
+            colorBox.style.backgroundColor = colorMapping[cluster] || "#ccc";
+
+            const textLabel = document.createElement("span");
+            textLabel.textContent = `Cluster ${cluster.split("_")[2]}`;
+
+            legendItem.appendChild(colorBox);
+            legendItem.appendChild(textLabel);
+            legendContainer.appendChild(legendItem);
+        }
+    });
+}
+
+
+    // 🔥 Atualiza a legenda após carregar os dados
+    updateLegend(data);
+
+    // Inicializa o grafo com a visualização 3D
+    renderGraph3D(data);
+
+  })
+  .catch(error => console.error("Erro ao carregar JSON:", error));
+
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(() => {
+        document.getElementById("preloader").classList.add("hidden");
+        setTimeout(() => {
+            document.getElementById("preloader").style.display = "none";
+        }, 1000); // Aguarda o fade-out antes de remover do DOM
+    }, 5000); // Tempo máximo de 5 segundos
+});
+</script>
+</body>
+</html>
