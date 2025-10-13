@@ -1,0 +1,12 @@
+# mídias pesadas
+*.zip
+assets/vid/*.mp4
+assets/gif/*.gif
+assets/img/*.png
+assets/img/*.jpg
+assets/img/*.jpeg
+assets/img/*.svg
+assets/img/*.webp
+assets/img/*.ico
+assets/img/*.bmp
+assets/img/*.tiff
