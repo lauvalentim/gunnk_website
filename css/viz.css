@@ -1,0 +1,712 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+body {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+.fade-in-text h2,
+.fade-in-text p {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 1s ease-out forwards;
+}
+
+.fade-in-text h2 {
+  animation-delay: 0.2s;
+}
+
+.fade-in-text p {
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header-custom {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #000;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-family: 'Bauhaus 93', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: -1px;
+  }
+  
+  a.logo {
+    text-decoration: none; 
+  }  
+
+  .nav-custom a {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0 15px;
+    color: #000;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+  
+  .nav-custom a:hover {
+    transform: scale(1.1);
+    color: #e10707;
+  }
+  
+  .bore-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative; 
+  z-index: 10;
+  cursor: pointer;
+  transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.15s ease;
+  }
+
+  .bore-toggle:active {
+    transform: scale(0.92);
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
+  }  
+    
+  .bore-toggle:hover {
+  transform: scale(0.96) translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset;
+  background-color: rgb(238, 24, 0);
+  }
+  
+  .bore-label {
+    font-size: 12px;
+    text-align: right;
+    font-weight: bold;
+    color: #757474;
+    line-height: 1;
+  }
+
+  .bore-label:hover {
+    color: #000;
+  }
+  
+  .switch {
+    border: 2px solid #000;
+    padding: 4px 8px;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+  }
+  
+  .switch .off {
+    opacity: 0.4;
+  }
+  
+  .switch .on {
+    margin-top: 2px;
+  }  
+
+.glitch-mode h1,
+.glitch-mode h2,
+.glitch-mode .card-title {
+  animation: glitch 1s linear infinite;
+}
+
+/* Scrollbar moderna com thumb circular e trilho escuro */
+body::-webkit-scrollbar {
+  width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #ddddddc3;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: radial-gradient(circle at center, #ff0303 20%, #d10404 40%);
+  border: 4px solid #1c1c1c;
+  border-radius: 50px;
+  box-shadow: none;
+  transition: background 0.3s ease;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: radial-gradient(circle at center, #ff0303 30%, #d10404 80%);
+}
+
+/* Capa da sessão de projetos */
+.capa-projetos {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(120deg, #3d3dbd, #172ca0);
+  position: relative;
+}
+
+
+.capa-projetos h2 {
+  font-family: 'Bauhaus 93', sans-serif;
+  font-size: 42px;
+  color: #ffcc00;
+  margin-top:150px;
+}
+
+.descricao-projetos {
+  font-size: 17px;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: #b5b5b5;
+  line-height: 1.5;
+}
+
+.btn-ver-projetos {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #ffcc00;
+  color: #1e1e1e;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-ver-projetos:hover {
+  background-color: #fff200;
+  transform: translateY(-2px);
+}
+
+.intro-cta {
+    display: inline-block;
+    margin-top: 40px;
+    background-color: transparent;
+    border: 2px solid #fff200;
+    padding: 10px 20px;
+    font-weight: light;
+    color: #fff200;
+    text-decoration: none;
+    border-radius: none;
+    transition: 0.3s;
+  }
+  
+  .intro-cta:hover {
+    background-color: #fff200;
+    color: #000;
+  }  
+
+  .eye-wrapper {
+    position: absolute;
+    bottom: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 40px;
+    z-index: 3;
+  }
+  
+  .eye {
+    bottom: 700px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border: 4px solid #000;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .pupil {
+    width: 20px;
+    height: 20px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    animation: look-around 4s ease-in-out infinite;
+  }
+  
+  @keyframes look-around {
+    0%   { transform: translate(0, 0); }
+    25%  { transform: translate(5px, 2px); }
+    50%  { transform: translate(-5px, -1px); }
+    75%  { transform: translate(3px, -2px); }
+    100% { transform: translate(0, 0); }
+  }  
+
+/* Sessão de Projetos */
+.projetos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+}
+
+/*Transições*/
+.capa-projetos,
+.hero,
+.sessao-projetos {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.animar-scroll {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.animar-scroll.ativo {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+
+/* --- HERO BASE --- */
+.hero {
+  position: relative;
+  height: 100vh;
+  min-height: 900px;
+  background: radial-gradient(circle at top left, #fcf9d9 0%, #efecec 100%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  padding: 180px 20px 120px;
+}
+  
+  /* Círculos concêntricos inspirados na imagem */
+  .concentric-circles {
+    margin-top: 50px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 800px;
+    height: 800px;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+  }
+  
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  
+  .circle.yellow-light {
+    width: 800px;
+    height: 800px;
+    background: #c00000;
+
+    z-index: 1;
+  }
+  
+  .circle.yellow {
+    width: 680px;
+    height: 680px;
+    background: #ff0000;
+    z-index: 2;
+  }
+  
+  .circle.red {
+    width: 560px;
+    height: 560px;
+    background: #fff200;
+    z-index: 3;
+  }
+  
+  .circle.red-dark {
+    width: 440px;
+    height: 440px;
+    background: #f6d700;
+    z-index: 4;
+  }
+  
+  /*--txt--*/
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #0c0c0c; 
+  color: #ffffff7f;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.marquee-content {
+  display: flex;
+  white-space: nowrap;
+  animation: scroll-left 30s linear infinite;
+}
+
+.marquee-group {
+  display: flex;
+  gap: 100px; /* espaço entre as frases */
+}
+
+.marquee-group span {
+  flex-shrink: 0;
+  padding-right: 50px;
+}
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+  /* --- CONTEÚDO --- */
+  .hero-content {
+    position: relative;
+    z-index: 5;
+    max-width: 800px;
+    padding-left: 80px;
+    margin-left: 140px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+  }  
+  
+  .hero-title {
+    font-family: 'Bauhaus 93', sans-serif;
+    font-size: 85px;
+    line-height: 1.1;
+    color: #000;
+    display: inline;
+    padding: 4px 8px;
+    margin-bottom: 24px;
+    box-decoration-break: clone;
+    mix-blend-mode: normal;
+  }
+
+  .pixel-runner {
+    position: absolute;
+    bottom: 80px; /* ajuste de posição vertical */
+    left: -100px; /* começa fora da tela */
+    width: 60px;
+    animation: correrBoneco 10s linear infinite;
+    z-index: 2;
+  }
+  
+  .pixel-runner img {
+    width: 500%;
+    image-rendering: pixelated; /* mantém o estilo 8bit */
+  }
+  
+  @keyframes correrBoneco {
+    0% {
+      left: -100px;
+    }
+    100% {
+      left: 110%;
+    }
+  }
+
+/* Grid de Projetos */
+@keyframes moveBG {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.sessao-projetos {
+  width: 100%;
+  padding: 100px 5px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.projetos-grid-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 80px 0;
+  position: relative;
+}
+
+/*Fundo*/
+.pontilhado {
+  background-color: #1a1a1a;
+  background-image: radial-gradient(#666565 0.8px, transparent 0.8px);
+  background-size: 16px 16px;
+}
+
+/* Cards dos Projetos */
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  flex: 1 0 21%;
+  max-width: 21%;
+  height: 670px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #222;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card::after {
+  content: "Explore 🔍";
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  background: rgba(0,0,0,0.6);
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover::after {
+  opacity: 1;
+}
+
+.svg-container {
+  width: 100%;
+  height: 100%;
+}
+
+.svg-container svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: scale(1.2); /* aumenta o tamanho do SVG */
+  transform-origin: center; /* centraliza o zoom */
+}
+
+/* Indice */
+.indice-visual {
+  padding: 70px 70px;
+  font-family: 'Bauhaus93', sans-serif;
+}
+
+.indice-visual h2 {
+  font-family: 'Bauhaus 93', sans-serif;
+  text-align: right;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #aaa;
+  font-weight: bold;
+}
+
+.indice-visual ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.indice-visual li {
+  font-family: 'Bauhaus 93', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 5px solid #aaa;
+  padding: 20px 0;
+  font-size: 2rem;
+}
+
+.indice-visual li:last-child {
+  border-bottom: 5px solid #aaa;
+}
+
+.indice-visual .circulo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-family: 'Bauhaus 93', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.red { background-color: #c40c0c; }
+.green { background-color: #0c7720; }
+.yellow { background-color: #f2c401; }
+.blue { background-color: #0c3ac4; }
+
+.indice-visual a {
+  color: #aaa;
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: right;
+  transition: all 0.3s ease;
+}
+
+.indice-visual a:hover {
+  text-decoration: underline;
+  color: #c40c0c;
+}
+
+.footer-custom {
+    background-color: #e50000; /* vermelho Bauhaus */
+    color: #000;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 3px solid #000;
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo {
+    font-family: 'Bauhaus 93', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .footer-tagline {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: transform 0.2s ease;
+  }
+  
+  .footer-links a:hover {
+    transform: scale(1.1);
+    color: #fff;
+  }  
+
+/* Animações */
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animar-scroll {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease;
+}
+.animar-scroll.ativo {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  .card {
+    flex: 1 0 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 1 0 90%;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    display: none !important;
+  }
+}
+
+/*Font*/
+@font-face {
+  font-family: 'Bauhaus93';
+  src: url('../assets/typo/BAUHS93.TTF') format('truetype');
+}
+
+.bauhaus {
+  font-family: 'Bauhaus93', sans-serif;
+} 

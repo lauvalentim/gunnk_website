@@ -1,0 +1,425 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(145deg, #101010, #141416);
+    background-attachment: fixed;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: block; /* ou flex, se estiver usando para outra coisa */
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    overflow-x: hidden;
+  }  
+
+body.loaded {
+  opacity: 1;
+}                      
+
+.header-custom {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #000;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-family: 'Bauhaus 93', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: -1px;
+  }
+
+  a.logo {
+    text-decoration: none; 
+  }  
+  
+  .nav-custom a {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0 15px;
+    color: #000;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+  
+  .nav-custom a:hover {
+    transform: scale(1.1);
+    color: #03419f;
+  }
+  
+  .bore-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative; 
+  z-index: 10;
+  cursor: pointer;
+  transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.15s ease;
+  }
+
+  .bore-toggle:active {
+    transform: scale(0.92);
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
+  }  
+    
+  .bore-toggle:hover {
+  transform: scale(0.96) translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset;
+  background-color: #03419f;
+  }
+  
+  .bore-label {
+    font-size: 12px;
+    text-align: right;
+    font-weight: bold;
+    color: #757474;
+    line-height: 1;
+  }
+
+  .bore-label:hover {
+    color: #000;
+  }
+  
+  .switch {
+    border: 2px solid #000;
+    padding: 4px 8px;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+  }
+  
+  .switch .off {
+    opacity: 0.4;
+  }
+  
+  .switch .on {
+    margin-top: 2px;
+  }  
+
+.glitch-mode h1,
+.glitch-mode h2,
+.glitch-mode .card-title {
+  animation: glitch 1s linear infinite;
+}
+
+/* Scrollbar moderna com thumb circular e trilho escuro */
+body::-webkit-scrollbar {
+  width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #ddddddc3;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: radial-gradient(circle at center, #2d6dcc 20%, #03419f 40%);
+  border: 4px solid #1c1c1c;
+  border-radius: 50px;
+  transition: background 0.3s ease;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: radial-gradient(circle at center, #2d6dcc 30%, #03419f 80%);
+}
+
+#intro-sobre {
+  background-color: #ECE5D8;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/*Font*/
+@font-face {
+    font-family: 'Bauhaus93';
+    src: url('../assets/typo/BAUHS93.TTF') format('truetype');
+  }
+  
+  .bauhaus {
+    font-family: 'Bauhaus93', sans-serif;
+  } 
+
+  /* Centralizando os botões */
+#conteudo-sobre .flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tab-section {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+.tab-content.active {
+  opacity: 1;
+  z-index: 5;
+}
+
+.tab-content > div {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.tab-content img {
+  width: 100%;
+  height: auto;          /* deixa a altura fluir com o conteúdo do texto */
+  object-fit: cover;
+  display: block;
+}
+
+.tab-buttons-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  display: flex;
+  flex-direction: column; /* ou row se quiser lado a lado */
+  gap: 20px;
+  align-items: center;
+}
+
+.tab-btn {
+  all: unset; /* zera tudo */
+  padding: 12px 24px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.tab-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.tab-btn.active {
+  background-color: #f5f5f5;
+  color: #000;
+  font-weight: bold;
+  box-shadow: none;
+}
+
+#creator.tab-content {
+  flex-direction: row-reverse;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.text-container {
+  background-color: #111;
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 80px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.5;
+}
+
+.text-container p {
+  font-size: 0.9rem;
+} 
+
+.text-container h1 {
+  font-family: 'Bauhaus93', sans-serif;
+}
+
+.text-container p:last-child {
+  margin-bottom: 0;
+}
+
+.half {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.half.left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro-animado h1,
+.intro-animado p {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.intro-animado h1 {
+  animation-delay: 0.2s;
+}
+.intro-animado p {
+  animation-delay: 0.4s;
+}
+
+/* Responsividade: Para telas pequenas, empilha vídeo e texto */
+@media (max-width: 768px) {
+  .tab-content {
+    flex-direction: column;
+  }
+
+  .half {
+    width: 100%;
+    height: auto;
+  }
+
+  .half.left img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+
+  .text-container {
+    padding: 40px 20px;
+    text-align: left;
+  }
+
+  .tab-buttons-centered {
+    position: static;
+    transform: none;
+    margin-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #intro-sobre {
+    margin-top: 5rem;
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+  
+}
+
+/*Footer*/
+.footer-custom {
+    background-color: #03419f;
+    color: #000;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 3px solid #000;
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo {
+    font-family: 'Bauhaus 93', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .footer-tagline {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: transform 0.2s ease;
+  }
+  
+  .footer-links a:hover {
+    transform: scale(1.1);
+    color: #fff;
+  }  
