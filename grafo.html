@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafo? - Gunk </title>
+    <link rel="stylesheet" href="./css/grafo.css">
+    <script src="./js/grafo.js" defer></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/GUNK-_1_.ico">
+</head>
+<body>
+  <header class="header-custom">
+    <a href="home" class="logo">GUNK</a>
+    <nav class="nav-custom">
+      <a href="home">HOME</a>
+      <a href="viz">VISUALIZAÇÕES</a>
+      <a href="artigos">ARTIGOS</a>
+      <a href="grafo">GRAFO?</a>
+      <a href="sobre">SOBRE</a>
+      <a href="contato">CONTATO</a>
+    </nav>
+    <div class="bore-toggle" id="glitch-toggle">
+      <span class="bore-label">CHECK<br>ME</span>
+      <div class="switch">
+        <span class="off">OUT</span>
+        <span class="on">🔴</span>
+      </div>
+    </div>
+  </header>
+
+<!-- WRAPPER DO PLAYER E GIF -->
+<div id="player-wrapper" style="position: fixed; bottom: 24px; right: 24px; z-index: 9999;">
+
+  <!-- PLAYER COMPLETO -->
+  <div id="custom-player" style="
+    width: 300px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: white;
+    border-radius: 16px;
+    font-family: sans-serif;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+  ">
+
+    <!-- Botão minimizar -->
+    <button id="minimize-btn" style="
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: rgba(255,255,255,0.2);
+      border: none;
+      color: white;
+      border-radius: 9999px;
+      width: 28px;
+      height: 28px;
+      font-size: 16px;
+      cursor: pointer;
+      backdrop-filter: blur(8px);
+    ">▼</button>
+
+    <!-- GIF -->
+    <div style="text-align: center; margin-bottom: 12px;">
+      <img src="./assets/gif/dance.gif" alt="GIF animado" style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
+    </div>
+
+    <!-- Infos da música -->
+    <div style="margin-bottom: 8px;">
+      <strong>Dance and Read With Me Babe</strong><br>
+      <span style="font-size: 0.85rem; color: #ccc;">Gunk Musik</span>
+    </div>
+
+    <!-- Barra de progresso -->
+    <input type="range" id="progress-bar" value="0" step="1" min="0" max="100"
+      style="width: 100%; appearance: none; height: 4px; background: #888; border-radius: 4px; margin-bottom: 4px;" />
+
+    <!-- Tempo -->
+    <div style="display: flex; justify-content: space-between; font-size: 0.75rem; margin-bottom: 8px;">
+      <span id="current-time">0:00</span>
+      <span id="total-time">0:00</span>
+    </div>
+
+    <!-- Controles -->
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <!-- Shuffle -->
+      <button style="background: transparent; border: none; cursor: pointer;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" viewBox="0 0 24 24" width="20" height="20">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4l16 16M4 20l16-16" />
+        </svg>
+      </button>
+
+      <!-- Back -->
+      <button style="background: transparent; border: none; cursor: pointer;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" viewBox="0 0 24 24" width="24" height="24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 19l-7-7 7-7v14zm2-14v14" />
+        </svg>
+      </button>
+
+      <!-- Play / Pause -->
+      <button id="play-btn" style="
+        background: rgba(255, 255, 255, 0.9);
+        width: 48px;
+        height: 48px;
+        border-radius: 9999px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        transition: transform 0.2s ease-in-out;
+      " onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+        <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" width="24" height="24">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+        <svg id="pause-icon" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 24 24" width="24" height="24" style="display:none;">
+          <path d="M6 5h4v14H6zm8 0h4v14h-4z"/>
+        </svg>
+      </button>
+
+      <!-- Forward -->
+      <button style="background: transparent; border: none; cursor: pointer;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" viewBox="0 0 24 24" width="24" height="24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7V5zm-2 0v14" />
+        </svg>
+      </button>
+
+      <!-- Repeat -->
+      <button style="background: transparent; border: none; cursor: pointer;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" viewBox="0 0 24 24" width="20" height="20">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 4h16v6M4 20h16v-6" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Áudio invisível -->
+    <audio id="custom-audio" src="./assets/audio/musik.mp3"></audio>
+  </div>
+
+  <!-- GIF FLUTUANTE (modo minimizado) -->
+  <button id="gif-toggle" style="
+    display: none;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  ">
+    <img src="./assets/gif/dance.gif" alt="GIF animado"
+      style="width: 56px; height: 56px; border-radius: 50%; object-fit: cover; box-shadow: 0 0 16px rgba(0,0,0,0.4);">
+  </button>
+</div>
+
+<script>
+  const audio = document.getElementById("custom-audio");
+  const playBtn = document.getElementById("play-btn");
+  const playIcon = document.getElementById("play-icon");
+  const pauseIcon = document.getElementById("pause-icon");
+  const progressBar = document.getElementById("progress-bar");
+  const currentTime = document.getElementById("current-time");
+  const totalTime = document.getElementById("total-time");
+  const minimizeBtn = document.getElementById("minimize-btn");
+  const expandBtn = document.getElementById("gif-toggle");
+  const customPlayer = document.getElementById("custom-player");
+
+  let isPlaying = false;
+
+  if (playBtn && playIcon && pauseIcon && audio) {
+    playBtn.addEventListener("click", () => {
+      if (!isPlaying) {
+        audio.play();
+        playIcon.style.display = "none";
+        pauseIcon.style.display = "block";
+      } else {
+        audio.pause();
+        playIcon.style.display = "block";
+        pauseIcon.style.display = "none";
+      }
+      isPlaying = !isPlaying;
+    });
+  }
+
+  if (audio && progressBar && totalTime && currentTime) {
+    audio.addEventListener("loadedmetadata", () => {
+      if (!isNaN(audio.duration)) {
+        progressBar.max = Math.floor(audio.duration);
+        totalTime.textContent = formatTime(audio.duration);
+      }
+    });
+
+    audio.addEventListener("timeupdate", () => {
+      progressBar.value = Math.floor(audio.currentTime);
+      currentTime.textContent = formatTime(audio.currentTime);
+    });
+
+    progressBar.addEventListener("input", () => {
+      audio.currentTime = progressBar.value;
+    });
+  }
+
+  function formatTime(sec) {
+    const m = Math.floor(sec / 60);
+    const s = Math.floor(sec % 60);
+    return `${m}:${s < 10 ? '0' : ''}${s}`;
+  }
+
+  if (minimizeBtn && expandBtn && customPlayer) {
+    minimizeBtn.addEventListener('click', () => {
+      customPlayer.style.display = 'none';
+      expandBtn.style.display = 'block';
+    });
+
+    expandBtn.addEventListener('click', () => {
+      customPlayer.style.display = 'block';
+      expandBtn.style.display = 'none';
+    });
+  }
+</script>
+  
+  <section class="scene1">
+    <div class="fade-in no-zoom">
+      <video autoplay muted loop playsinline>
+        <source src="./assets/vid/69.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos HTML5.
+      </video>
+    </div>
+    <div class="overlay-blur"></div>
+    <div class="content fade-in-text">
+      <h1>Comunidade: a vontade de estar junto</h1>
+      <p>
+        Em 1969, meio milhão de jovens se reuniram em Woodstock acreditando que a união poderia mudar o mundo.<br>
+        3 dias de paz, amor e música se tornaram símbolo de uma comunidade conectada.
+      </p>
+    </div>
+  </section>
+  
+  <div class="scroll-container">
+    <section class="scene2 fade-slide-up text-center">
+        <div class="scene2-background"></div>
+      <div class="img-step active fade-in no-zoom" id="img1">
+        <img src="./assets/image/05 (3).jpg" alt="Imagem 1" />
+      </div>
+      <div class="img-step fade-in no-zoom" id="img2">
+        <img src="./assets/image/05 (4).jpg" alt="Imagem 2" />
+      </div>
+      <div class="img-step fade-in no-zoom" id="img3">
+        <img src="./assets/image/05 (5).jpg" alt="Imagem 3" />
+      </div>
+      <div class="overlay-blur"></div>
+      <div class="scene2-wrapper fade-in no-zoom">
+        <div class="content">
+          <h2>O colapso da coletividade</h2><br>
+          <p>
+            Trinta anos depois, a edição de 1999 do mesmo festival mergulhou no caos. <br>
+            Violência, consumo desenfreado e frustrações marcaram o evento. <br>
+            A utopia virou distopia e a sociedade caminhava para uma nova era, hiperconectada e mediada pela tecnologia.
+          </p>
+        </div>
+      </div>
+      
+    </section>
+  </div>
+
+  <div class="marquee-container">
+    <div class="marquee-content">
+      <div class="marquee-group">
+        <span>PRECISAMOS DE REGENERAÇÃO, NÃO ENTRE RENASCIMENTO, E AS POSSIBILIDADES PARA NOSSA RECONSTITUIÇÃO INCLUEM O SONHO UTÓPICO DA ESPERANÇA DE UM MUNDO MONSTRUOSO, SEM GÊNERO </span>
+        <span>THERE ARE NO LITTLE BOXES: EVERYTHING IS DEEPLY INTERTWINGLED</span>
+  
+        <!-- duplicado para loop funcionar -->
+        <span>PRECISAMOS DE REGENERAÇÃO, NÃO ENTRE RENASCIMENTO, E AS POSSIBILIDADES PARA NOSSA RECONSTITUIÇÃO INCLUEM O SONHO UTÓPICO DA ESPERANÇA DE UM MUNDO MONSTRUOSO, SEM GÊNERO </span>
+        <span>THERE ARE NO LITTLE BOXES: EVERYTHING IS DEEPLY INTERTWINGLED</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="paper-background">
+  
+    <div class="floating-text-orbit">
+      <span>Redes são símbolos. Redes são estruturas.</span>
+    </div>
+
+  <section class="scene3 fade-slide-up text-left custom-section">
+    <div class="scene3-block block1">
+      <div class="content scene3-grid">
+        <div class="scene3-text fade-sync fade-text">
+          <h2>Mutação civilizatória</h2><br>
+          <p>
+            A tecnologia avançou, o mundo acelerou e nossas conexões começaram a acontecer cada vez mais mediadas por cabos e sinais. Foi mais do que uma transformação técnica. Foi uma mutação civilizatória.<br><br>
+            Como nos relacionamos, consumimos, vivemos tudo mudou com a chegada da era digital. As <span class="highlight">redes sociais</span>  se tornaram não somente apenas espaços de lazer mas espaços de <span class="highlight">disputa</span>, <span class="highlight">identidade</span>, <span class="highlight">política</span>, <span class="highlight">afeto</span> e <span class="highlight">consumo</span>.
+          </p>
+        </div>
+        <div class="scene3-visuals fade-sync fade-media">
+          <div class="image-container left">
+            <div class="circle-bg"></div>
+            <img src="./assets/image/scene3_01.png" alt="Imagem 1" class="scene-image" />
+          </div>
+          <div class="image-container right">
+            <div class="circle-bg"></div>
+            <img src="./assets/image/scene3_02.png" alt="Imagem 2" class="scene-image" />
+          </div>
+          <svg class="connector-line" viewBox="0 0 1200 150">
+            <path d="M 20 80 Q 600 -60 1180 80" stroke="#ffcc00" stroke-width="3" fill="none" stroke-dasharray="8 4">
+              <animate attributeName="stroke-dashoffset" values="100;0" dur="2s" repeatCount="indefinite" />
+            </path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div id="animated-graph">
+    <div class="graph-text">
+      <h2>A linguagem das redes</h2><br>
+      <p>Para lidar com essa complexidade, começamos a desenhar. Linhas, pontos, fluxos. A rede virou estrutura. <span class="highlight">O grafo, uma linguagem.</span><br><br>
+      Nós chamamos de Análise de Redes Sociais — uma forma de representar quem se conecta com quem, e como isso afeta o mundo.</p>
+    </div>
+    <div id="force-graph"></div>
+  </div>
+
+  <section class="scene5 fade-slide-up custom-section">
+    <div class="scene5-centered">
+      <div class="scene5-videos">
+        <video src="./assets/vid/video-left.mp4" autoplay muted loop playsinline class="video-left"></video>
+  
+        <div class="scene5-text">
+          <h2>Visualizar para entender</h2><br>
+          <p>
+            Visualizar é traduzir. Mas também é interpretar.<br>
+            Cada cor, cada posição, cada conexão carrega escolhas metodológicas.<br><br>
+            A <span class="highlight">Visual Network Analysis (VNA)</span> une número e narrativa. O que você vê depende de como você olha.
+          </p>
+        </div>
+  
+        <video src="./assets/vid/video-right.mp4" autoplay muted loop playsinline class="video-right"></video>
+      </div>
+    </div>
+  </section>
+  
+  <section class="scene6 fade-slide-up custom-section">
+    <div class="scene6-centered">
+      <div class="scene6-wrapper">
+        <div class="scene6-text">
+          <h2>O início: sociogramas e redes complexas</h2><br>
+          <p>
+            Antes dos grafos, vieram os <span class="highlight">sociogramas, introduzidos por Jacob Moreno</span>. Mapas afetivos, simples, intuitivos.<br><br>
+            Depois, as <span class="highlight">redes complexas</span>: estruturas dinâmicas, com padrões, hubs, clusters e múltiplos níveis de conexão.
+          </p>
+        </div>
+  
+        <div class="scene6-gif">
+          <img src="./assets/gif/jacob-moreno.gif" alt="Gif de rede animada" class="gif-visual6" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene7 fade-slide-up text-left custom-section">
+    <div class="content">
+      <h2>Das relações à complexidade</h2><br>
+      <p>
+        Com o tempo, as <span class="highlight">redes cresceram</span>. Pequenos grupos deram lugar a <span class="highlight">ecossistemas complexos</span>, formados por milhares de conexões.<br><br>
+        Para compreendê-las, surgiram as <span class="highlight">redes complexas</span> — estruturas dinâmicas com múltiplos níveis, hubs e padrões emergentes. Era o início de uma nova <span class="highlight">ciência das conexões</span>.
+      </p>
+    </div>
+
+    <div class="scene7-gif fade-sync fade-media">
+      <img src="./assets/gif/naza.gif" alt="Gif de rede animada" class="gif-visual7" />
+    </div>
+  </section>
+
+  <section class="scene8 fade-slide-up custom-section">
+    <div class="scene8-layout">
+    
+      <div class="scene8-visual">
+        <video autoplay muted loop playsinline class="video-visual8">
+          <source src="./assets/vid/scene8.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeo HTML5.
+        </video>
+      </div>
+    
+      <div class="scene8-text">
+        <h2>Big data e o desafio da leitura digital</h2><br>
+        <p>
+          Vivemos em uma era de <span class="highlight">excesso de dados</span>. Redes sociais, plataformas digitais e sistemas automatizados geram uma <span class="highlight">quantidade imensa de informações</span> a cada segundo.<br><br>
+          A tarefa de pesquisadoras e pesquisadores que desejam compreender essas redes é <span class="highlight">árdua</span>, exigindo manuseio de diversas ferramentas, interpretações e muita atenção à complexidade por trás de cada conexão.<br><br>
+          Ler redes digitais hoje é também <span class="highlight">enfrentar a sobrecarga</span>, buscando sentido em meio ao ruído.
+        </p>
+      </div>
+    
+    </div>
+  </section>
+  
+  <section class="scene9 fade-slide-up custom-section">
+    <div class="scene9-layout">
+  
+      <div class="scene9-text">
+        <h2>Interpretar redes é ler o mundo</h2><br>
+        <p>
+          Ler uma rede é muito mais do que entender conexões. É mergulhar em <span class="highlight">relações humanas</span>, <span class="highlight">dinâmicas sociais</span> e <span class="highlight">estruturas de poder</span>.<br><br>
+          É reconhecer que <span class="highlight">toda visualização é também uma narrativa</span>, uma escolha sobre o que mostrar — e o que esconder. Por isso, interpretar redes é também <span class="highlight">um ato político</span>.
+        </p>
+      </div>
+  
+      <div class="scene9-visual">
+        <video class="gif-visual video-small" autoplay muted loop playsinline>
+          <source src="./assets/vid/scene9.mp4" type="video/mp4" />
+          Seu navegador não suporta vídeo HTML5.
+        </video>
+      </div>
+  
+    </div>
+  </section>
+
+  <div class="marquee-container">
+    <div class="marquee-content">
+      <div class="marquee-group">
+        <span>PRECISAMOS DE REGENERAÇÃO, NÃO ENTRE RENASCIMENTO, E AS POSSIBILIDADES PARA NOSSA RECONSTITUIÇÃO INCLUEM O SONHO UTÓPICO DA ESPERANÇA DE UM MUNDO MONSTRUOSO, SEM GÊNERO </span>
+        <span>THERE ARE NO LITTLE BOXES: EVERYTHING IS DEEPLY INTERTWINGLED</span>
+  
+        <!-- duplicado para loop funcionar -->
+        <span>PRECISAMOS DE REGENERAÇÃO, NÃO ENTRE RENASCIMENTO, E AS POSSIBILIDADES PARA NOSSA RECONSTITUIÇÃO INCLUEM O SONHO UTÓPICO DA ESPERANÇA DE UM MUNDO MONSTRUOSO, SEM GÊNERO </span>
+        <span>THERE ARE NO LITTLE BOXES: EVERYTHING IS DEEPLY INTERTWINGLED</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="scene10 fullscreen-video">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="./assets/vid/scene10.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeo HTML5.
+    </video>
+    <div class="final-button-wrapper">
+      <a href="https://example.com/checkout" class="final-cta">Explorar projetos</a>
+    </div>
+  </section>
+  
+</div>
+    <footer class="footer-custom">
+      <div class="footer-left">
+        <span class="footer-logo">GUNK</span>
+        <p class="footer-tagline">Dados, redes, visualizações e nós.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/LauValentim" target="_blank">GitHub</a>
+        <a href="https://www.behance.net/valentim" target="_blank">Behance</a>
+        <a href="mailto:heygunnk@gmail.com?subject=Olá!&body=Escreva sua mensagem aqui">Email</a>
+      </div>
+    </footer>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const leftCount = 270;
+        const rightCount = 270;
+        const nodes = [];
+        for (let i = 0; i < leftCount; i++) {
+          nodes.push({ id: `A${i + 1}`, group: 1, weight: Math.pow(Math.random(), 2) * 5 + 1 });
+        }
+        for (let i = 0; i < rightCount; i++) {
+          nodes.push({ id: `B${i + 1}`, group: 2, weight: Math.pow(Math.random(), 2) * 5 + 1 });
+        }
+    
+        const links = [];
+        for (let i = 0; i < leftCount; i++) {
+          const connections = Math.floor(Math.random() * 4) + 1;
+          const targets = Array.from({ length: connections }, () => `B${Math.floor(Math.random() * rightCount) + 1}`);
+          targets.forEach(target => links.push({ source: `A${i + 1}`, target }));
+        }
+    
+        const svg = d3.select("#force-graph").append("svg")
+          .attr("width", "100%")
+          .attr("height", "100%")
+          .style("position", "absolute")
+          .style("top", "0")
+          .style("left", "0")
+          .style("z-index", "0")
+          .style("pointer-events", "none")
+          .style("opacity", 0.9);
+    
+        const color = d3.scaleOrdinal()
+          .domain([1, 2])
+          .range(["#cf0e0e", "#3760f1"]);
+    
+        const simulation = d3.forceSimulation()
+          .force("link", d3.forceLink().id(d => d.id).distance(1300))
+          .force("charge", d3.forceManyBody().strength(-60))
+          .force("collision", d3.forceCollide().radius(d => d.weight * 3 + 4))
+          .force("x", d3.forceX().strength(0.3).x(d => d.group === 1 ? window.innerWidth * 0.35 : window.innerWidth * 0.65))
+          .force("y", d3.forceY().strength(0.4).y(window.innerHeight / 2));
+    
+        const link = svg.append("g").attr("stroke", "#ccc").attr("stroke-opacity", 0.5);
+        const node = svg.append("g");
+    
+        function drawGraph(currentNodes, currentLinks) {
+          simulation.nodes(currentNodes);
+          simulation.force("link").links(currentLinks);
+    
+          link.selectAll("line")
+            .data(currentLinks)
+            .join("line")
+            .attr("stroke-width", d => (d.source.weight + d.target.weight) * 0.03);
+    
+          node.selectAll("circle")
+            .data(currentNodes, d => d.id)
+            .join("circle")
+            .attr("r", d => d.weight * 3)
+            .attr("fill", d => color(d.group))
+            .call(d3.drag()
+              .on("start", dragstart)
+              .on("drag", dragged)
+              .on("end", dragend));
+    
+          simulation.alpha(1).restart();
+        }
+    
+        function dragstart(event, d) {
+          if (!event.active) simulation.alphaTarget(0.3).restart();
+          d.fx = d.x;
+          d.fy = d.y;
+        }
+        function dragged(event, d) {
+          d.fx = event.x;
+          d.fy = event.y;
+        }
+        function dragend(event, d) {
+          if (!event.active) simulation.alphaTarget(0);
+          d.fx = null;
+          d.fy = null;
+        }
+    
+        simulation.on("tick", () => {
+          svg.selectAll("line")
+            .attr("x1", d => d.source.x)
+            .attr("y1", d => d.source.y)
+            .attr("x2", d => d.target.x)
+            .attr("y2", d => d.target.y);
+    
+          svg.selectAll("circle")
+            .attr("cx", d => d.x)
+            .attr("cy", d => d.y);
+        });
+    
+        function animateGraph() {
+          let displayedLinks = [];
+          let displayedNodes = [];
+    
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                let i = 0;
+                const interval = setInterval(() => {
+                  if (i >= links.length) {
+                    clearInterval(interval);
+                    return;
+                  }
+                  const raw = links[i];
+                  const sourceNode = nodes.find(n => n.id === raw.source);
+                  const targetNode = nodes.find(n => n.id === raw.target);
+    
+                  if (!displayedNodes.includes(sourceNode)) displayedNodes.push(sourceNode);
+                  if (!displayedNodes.includes(targetNode)) displayedNodes.push(targetNode);
+                  displayedLinks.push({ source: sourceNode, target: targetNode });
+    
+                  drawGraph(displayedNodes, displayedLinks);
+                  i++;
+                }, 25);
+              }
+            });
+          }, { threshold: 0.5 });
+    
+          const target = document.querySelector("#animated-graph");
+          if (target) {
+            observer.observe(target);
+          }
+        }
+    
+        animateGraph();
+      });
+    </script>    
+
+</body>
+</html>
