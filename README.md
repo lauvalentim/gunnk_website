@@ -41,3 +41,9 @@ D3.js, Sigma.js and Three.js for interactive data visualization
 JavaScript for interaction logic and data manipulation
 
 HTML/CSS for structure and styling
+
+![Assista ao projeto](./assets/demo-grafos.mp4)
+
+![Demonstração do Grafo](./assets/demo-grafo-00.gif)
+![Demonstração do Grafo](./assets/demo-grafo-01.gif)
+![Demonstração do Grafo](./assets/demo-grafo-02.gif)
